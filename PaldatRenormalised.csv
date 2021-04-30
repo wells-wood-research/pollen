@@ -1,0 +1,841 @@
+particle,min_max_size,dispersal_unit,class,polarity,P/E,2D_shape,3D_shape,aperture_prefix,aperture_type,aperture_features,ornamentation,other,taxonomy
+aesculus parviflora,"16,20",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,aperture membrane ornamented, striate,"-,viscin threads","['Angiospermae', 'Sapindales', 'Sapindaceae', '']"
+agapanthus praecox,,,,,,,,,,,,,
+agapanthus praecox3,,,,,,,,,,,,,
+agave tequilana,,,,,,,,,,,,,
+agave tequilana5,,,,,,,,,,,,,
+agrimonia eupatoria,"31,40",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,-,"rugulate,  striatestriate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+albuca canadiensis,,,,,,,,,,,,,
+albuca canadiensis8,,,,,,,,,,,,,
+alcea rosea,"101,101",monad,porate,isopolar,-,circular,spheroidal,"['panto', 'panto']",porus,pantoaperturate,echinate,"-,viscin threads","['Angiospermae', 'Malvales', 'Malvaceae', '']"
+alliana petiolata,"21,25",monad,colpate,isopolar,prolate,circular,-,['tri'],colpus,aperture membrane ornamented,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+allium ampetoprasum,"26,50",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,microreticulate,"ubisch bodies,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+allium ampetoprasum12,"26,50",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,microreticulate,"ubisch bodies,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+allium cepa,"16,30",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,"psilatestriate, rugulate, perforate","-,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+allium cepa14,"16,30",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,"psilatestriate, rugulate, perforate","-,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+allium karataviense,,,,,,,,,,,,,
+allium paradoxum,"26,50",monad,-,heteropolar,oblate,elliptic,-,[],sulcus,-,"rugulate, perforate","-,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+allium roseum,"26,50",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,"scabrate,  verrucate,  gemmaterugulate, striate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+alloplectus mummularia,,,,,,,,,,,,,
+alnus glutinosa,"21,25",monad,porate,isopolar,oblate,polygonal,-,"['penta', 'stephano']",porus,stephanoaperturate,"psilatemicrorugulate, microechinate","ubisch bodies,viscin threads","['Angiospermae', 'Fagales', 'Betulaceae', '']"
+alnus viridis,"10,25",monad,porate,isopolar,-,circular,spheroidal,"['penta', 'stephano']",porus,stephanoaperturate,"microrugulate, microechinate","ubisch bodies,viscin threads","['Angiospermae', 'Fagales', 'Betulaceae', '']"
+aloe bellatula,,,,,,,,,,,,,
+aloe bellatula22,,,,,,,,,,,,,
+alyogyne huegelii,,,,,,,,,,,,,
+alyogyne huegelii24,,,,,,,,,,,,,
+alyssum saxatile,"16,20",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,-,reticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+amaryllis belladonna,,,,,,,,,,,,,
+amaryllis belladonna27,,,,,,,,,,,,,
+amelanchier lamarckii,,,,,,,,,,,,,
+amelanchier lamarckii29,,,,,,,,,,,,,
+amorpha friticosa,"16,25",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,"aperture membrane ornamented, margo",reticulatemicroreticulate,"-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+anagallis arvensis,"21,25",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,reticulatemicroreticulate,"ubisch bodies,viscin threads","['Angiospermae', 'Ericales', 'Primulaceae', '']"
+anemone coronaria,,,,,,,,,,,,,
+anemone coronaria33,,,,,,,,,,,,,
+anemone hupehensis,,,,,,,,,,,,,
+anemone hupehensis35,,,,,,,,,,,,,
+anemone nemorosa,"21,30",monad,colpate,isopolar,isodiametric,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,"scabrate,  verrucate,  gemmatemicroechinate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Ranunculales', 'Ranunculaceae', '']"
+anemopaegma chamberleyii,,,,,,,,,,,,,
+anemopaegma chamberleyii38,,,,,,,,,,,,,
+anigozanthos rufus,"41,100",monad,porate,-,oblate,elliptic,-,['di'],porus,-,"scabrate,  verrucate,  gemmateverrucate, fossulate, rugulate","-,viscin threads","['Angiospermae', 'Commelinales', 'Haemodoraceae', '']"
+anigozanthos rufus40,"41,100",monad,porate,-,oblate,elliptic,-,['di'],porus,-,"scabrate,  verrucate,  gemmateverrucate, fossulate, rugulate","-,viscin threads","['Angiospermae', 'Commelinales', 'Haemodoraceae', '']"
+anthericum liliago,"51,100",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,"reticulate, heterobrochatereticulate, heterobrochate, granulate","ubisch bodies,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+anthriscus sylvestris,"11,30",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Apiales', 'Apiaceae', '']"
+anthriscus sylvestris43,"11,30",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Apiales', 'Apiaceae', '']"
+aquilegia fragrans,,,,,,,,,,,,,
+aquilegia vulgaris,"16,25",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,"scabrate,  verrucate,  gemmatemicroechinate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Ranunculales', 'Ranunculaceae', '']"
+arabis caucasica,"26,50",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,-,reticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+arabis caucasica47,"26,50",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,-,reticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+araucaria heterophylla,,,,,,,,,,,,,
+araucaria heterophylla49,,,,,,,,,,,,,
+arctotis fastuosa,,,,,,,,,,,,,
+ardisia solanacea,,,,,,,,,,,,,
+ardisia solanacea52,,,,,,,,,,,,,
+areca rheophytica,,,,,,,,,,,,,
+areca rheophytica54,,,,,,,,,,,,,
+aristotelia chilensis,"10,25",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,microreticulate,"ubisch bodies,viscin threads","['Angiospermae', 'Oxalidales', 'Elaeocarpaceae', '']"
+armeria maritima,"51,100",monad,colpate,isopolar,oblate,circular,-,['tri'],colpus,-,"reticulum cristatum, microechinate","-,viscin threads","['Angiospermae', 'Caryophyllales', 'Plumbaginaceae', '']"
+armoracia rusticana,"16,25",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,-,reticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+armoracia rusticana58,"16,25",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,-,reticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+aruncus dioicus,"11,20",monad,colporate,isopolar,-,triangular,spheroidal,['tri'],colporus,aperture membrane ornamented,"rugulate,  striatestriate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+asperula sintensis,,,,,,,,,,,,,
+aster tongolensis,,,,,,,,,,,,,
+astrantia major,"21,50",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,-,"scabrate,  verrucate,  gemmaterugulate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Apiales', 'Apiaceae', '']"
+astrantia major63,"21,50",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,-,"scabrate,  verrucate,  gemmaterugulate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Apiales', 'Apiaceae', '']"
+astrophytum capricorne,,,,,,,,,,,,,
+astrophytum coahuilensis,,,,,,,,,,,,,
+astrophytum myriostigma,,,,,,,,,,,,,
+astrophytum myriostigma67,,,,,,,,,,,,,
+astrophytum ornatum,,,,,,,,,,,,,
+astrophytum ornatum69,,,,,,,,,,,,,
+atropha belladonna,"31,50",monad,colporate,isopolar,oblate,circular,-,['tri'],colporus,-,striate,"-,viscin threads","['Angiospermae', 'Solanales', 'Solanaceae', '']"
+aubretia cultorum,,,,,,,,,,,,,
+aubretia cultorum72,,,,,,,,,,,,,
+aubretia deltoides,,,,,,,,,,,,,
+averrhoe carambola,"11,20",monad,colpate,isopolar,oblate,circular,-,['tri'],colpus,-,reticulatemicroreticulate,"ubisch bodies,viscin threads","['Angiospermae', 'Oxalidales', 'Oxalidaceae', '']"
+averrhoe carambola75,"11,20",monad,colpate,isopolar,oblate,circular,-,['tri'],colpus,-,reticulatemicroreticulate,"ubisch bodies,viscin threads","['Angiospermae', 'Oxalidales', 'Oxalidaceae', '']"
+aylostera albiflora,,,,,,,,,,,,,
+begonia convolvolacea,"10,25",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,aperture membrane ornamented,"striate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Cucurbitales', 'Begoniaceae', '']"
+bellevalia romana,"51,100",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,"reticulate, microreticulate, heterobrochate","ubisch bodies,viscin threads","['Angiospermae', 'Asparagales', 'Asparagaceae', '']"
+bellevalia romana79,"51,100",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,"reticulate, microreticulate, heterobrochate","ubisch bodies,viscin threads","['Angiospermae', 'Asparagales', 'Asparagaceae', '']"
+bellis perennis,"16,20",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinateechinate, perforate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+bellis perennis81,"16,20",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinateechinate, perforate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+bergenia bressingham,,,,,,,,,,,,,
+bergenia emiensis,,,,,,,,,,,,,
+bergenia purpurascens,,,,,,,,,,,,,
+beschorneria yuccoides,,,,,,,,,,,,,
+beschorneria yuccoides86,,,,,,,,,,,,,
+betula albo-sinensis,,,,,,,,,,,,,
+betula medwediewii,,,,,,,,,,,,,
+betula pendula,"16,25",monad,porate,isopolar,-,circular,spheroidal,['tri'],porus,"annulus, operculum, oncus","psilaterugulate, microechinate","ubisch bodies,viscin threads","['Angiospermae', 'Fagales', 'Betulaceae', '']"
+betula schonidtii,,,,,,,,,,,,,
+betula utilis,,,,,,,,,,,,,
+betula utilis92,,,,,,,,,,,,,
+billbergia distachia,,,,,,,,,,,,,
+bomaria edulis,,,,,,,,,,,,,
+bomaria edulis95,,,,,,,,,,,,,
+bongardia chrysogonum,,,,,,,,,,,,,
+borago officinalis,"31,40",monad,colporate,isopolar,-,circular,spheroidal,"['panto', 'stephano']",colporus,"brevicolporus, stephanoaperturate","scabrate,  verrucate,  gemmatemicrogemmate, perforate","-,viscin threads","['Angiospermae', 'unplaced', 'Boraginaceae', '']"
+borago officinalis98,"31,40",monad,colporate,isopolar,-,circular,spheroidal,"['panto', 'stephano']",colporus,"brevicolporus, stephanoaperturate","scabrate,  verrucate,  gemmatemicrogemmate, perforate","-,viscin threads","['Angiospermae', 'unplaced', 'Boraginaceae', '']"
+bouganvillia glabra,,,,,,,,,,,,,
+boweia volubilis,,,,,,,,,,,,,
+boweia volubilis101,,,,,,,,,,,,,
+brassica oleracea,"21,30",monad,colpate,isopolar,prolate,circular,-,['tri'],colpus,-,reticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+brassica rapa,,,,,,,,,,,,,
+briza minima,,,,,,,,,,,,,
+broussonetia kazinoki,,,,,,,,,,,,,
+broussonetia kazinoki106,,,,,,,,,,,,,
+brunfelsia americana,,,,,,,,,,,,,
+bulbine frutescens,,,,,,,,,,,,,
+bulbine frutescens109,,,,,,,,,,,,,
+burchellia bubalina,,,,,,,,,,,,,
+burchellia bubalina111,,,,,,,,,,,,,
+calandula officinalis,"31,35",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinateechinate, perforate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+calliandria haematocephala,,,,,,,,,,,,,
+callistema citrinus,"11,20",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,-,psilate,"-,viscin threads","['Angiospermae', 'Myrtales', 'Myrtaceae', '']"
+callistema citrinus115,"11,20",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,-,psilate,"-,viscin threads","['Angiospermae', 'Myrtales', 'Myrtaceae', '']"
+calluna vulgaris,"26,35",tetrad,tetrad,heteropolar,-,circular,spheroidal,['tri'],colporus,-,"scabrate,  verrucate,  gemmateverrucate, gemmate","ubisch bodies,viscin threads","['Angiospermae', 'Ericales', 'Ericaceae', '']"
+calluna vulgaris117,"26,35",tetrad,tetrad,heteropolar,-,circular,spheroidal,['tri'],colporus,-,"scabrate,  verrucate,  gemmateverrucate, gemmate","ubisch bodies,viscin threads","['Angiospermae', 'Ericales', 'Ericaceae', '']"
+calochortus superbus,,,,,,,,,,,,,
+calothalmus quadrifidus,,,,,,,,,,,,,
+camassia cusickii,,,,,,,,,,,,,
+camassia cusickii121,,,,,,,,,,,,,
+camassia leichtlinii,"51,100",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,aperture membrane ornamented,"reticulate, heterobrochate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Asparagales', 'Asparagaceae', '']"
+camassia leichtlinii123,"51,100",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,aperture membrane ornamented,"reticulate, heterobrochate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Asparagales', 'Asparagaceae', '']"
+camellia japonica,"36,50",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,operculum,"granulate, scabrate, reticulatemicroreticulate","-,viscin threads","['Angiospermae', 'Ericales', 'Theaceae', '']"
+camellia japonica125,"36,50",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,operculum,"granulate, scabrate, reticulatemicroreticulate","-,viscin threads","['Angiospermae', 'Ericales', 'Theaceae', '']"
+camellia sinensis,"36,50",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,operculum,"scabrate,  verrucate,  gemmateverrucate, perforate","-,viscin threads","['Angiospermae', 'Ericales', 'Theaceae', '']"
+campanula persicifolia,"31,35",monad,porate,isopolar,-,circular,spheroidal,['tri'],porus,-,"echinateechinate, striatomicroreticulate","ubisch bodies,viscin threads","['Angiospermae', 'Asterales', 'Campanulaceae', '']"
+campanula persicifolia128,"31,35",monad,porate,isopolar,-,circular,spheroidal,['tri'],porus,-,"echinateechinate, striatomicroreticulate","ubisch bodies,viscin threads","['Angiospermae', 'Asterales', 'Campanulaceae', '']"
+campanula punctata,,,,,,,,,,,,,
+campsis radicans,"21,30",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane psilate,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Bignoniaceae', '']"
+cannabis sativa,"21,30",monad,porate,isopolar,isodiametric,circular,spheroidal,['tri'],porus,annulus,psilategranulate,"ubisch bodies,viscin threads","['Angiospermae', 'Rosales', 'Cannabaceae', '']"
+cannabis sativa132,"21,30",monad,porate,isopolar,isodiametric,circular,spheroidal,['tri'],porus,annulus,psilategranulate,"ubisch bodies,viscin threads","['Angiospermae', 'Rosales', 'Cannabaceae', '']"
+capsella bursa-pastoris,"16,25",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,-,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+capsicum annuum,"21,35",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,-,"scabrate,  verrucate,  gemmatemicroechinate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Solanales', 'Solanaceae', '']"
+capsicum annuum135,"21,35",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,-,"scabrate,  verrucate,  gemmatemicroechinate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Solanales', 'Solanaceae', '']"
+capsicum annuum136,"21,35",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,-,"scabrate,  verrucate,  gemmatemicroechinate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Solanales', 'Solanaceae', '']"
+cardamine pratense,"31,40",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,-,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+carica papaya,,,,,,,,,,,,,
+carmichaelia silvatica,,,,,,,,,,,,,
+carpinus betulus,"9,35",monad,porate,isopolar,-,circular,spheroidal,['tetra'],porus,"operculum, oncus","psilaterugulate, microechinate","ubisch bodies,viscin threads","['Angiospermae', 'Fagales', 'Betulaceae', '']"
+castanea sativa,"11,15",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,-,"psilaterugulate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Fagales', 'Fagaceae', '']"
+catalpa bignonoides,"41,50",tetrad,tetrad,heteropolar,-,no suitable term,no suitable term,['in'],no aperture,-,"reticulateclypeate, reticulate","-,viscin threads","['Angiospermae', 'Lamiales', 'Bignoniaceae', '']"
+catalpa bignonoides143,"41,50",tetrad,tetrad,heteropolar,-,no suitable term,no suitable term,['in'],no aperture,-,"reticulateclypeate, reticulate","-,viscin threads","['Angiospermae', 'Lamiales', 'Bignoniaceae', '']"
+ceanothus impressus,"16,25",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,-,psilate,"-,viscin threads","['Angiospermae', 'Rosales', 'Rhamnaceae', '']"
+cedrus atlantica,"51,100",monad,saccate,heteropolar,oblate,elliptic,-,[],leptoma,-,"verrucate, microverrucate, fossulate, perforate","-,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+cedrus atlantica146,"51,100",monad,saccate,heteropolar,oblate,elliptic,-,[],leptoma,-,"verrucate, microverrucate, fossulate, perforate","-,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+centaurea arbutifolia,,,,,,,,,,,,,
+centaurea cyanus,"26,50",monad,colporate,isopolar,prolate,triangular,-,['tri'],colporus,-,scabratemicroechinate,"-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+centaurea montana,,,,,,,,,,,,,
+centaurea montana150,,,,,,,,,,,,,
+centaurea scabiosa,"36,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinatemicroechinate, perforate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+cephalaria flava,,,,,,,,,,,,,
+cephalaria flava153,,,,,,,,,,,,,
+cephalophylum alstonii,,,,,,,,,,,,,
+cephalotaxus fortunei,,,,,,,,,,,,,
+cephalotaxus harring,,,,,,,,,,,,,
+ceratozamia hidae,,,,,,,,,,,,,
+ceratozamia hidae158,,,,,,,,,,,,,
+cercis chinensis,-,monad,colporate,-,-,-,-,['tri'],colporus,-,,"-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+cercis siliquastrum,"21,30",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"reticulatereticulate, freestanding columellae","-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+cereus validus,,,,,,,,,,,,,
+cestrum newellii,,,,,,,,,,,,,
+cestrum psittacinum,,,,,,,,,,,,,
+chaenomeles superba,,,,,,,,,,,,,
+chamaecyperis lawsonii,,,,,,,,,,,,,
+chamaenerion angustifolium,,,,,,,,,,,,,
+chelidonium magus,"26,35",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,"scabrateperforate, microechinate","-,viscin threads","['Angiospermae', 'Ranunculales', 'Papaveraceae', '']"
+chloranthus oldhamii,,,,,,,,,,,,,
+choisya ternata,,,,,,,,,,,,,
+chrysanthemum leucanthemum,,,,,,,,,,,,,
+cirsium arvense,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinate, microreticulate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+cissus quadrangularis,,,,,,,,,,,,,
+cistis aquilarii,,,,,,,,,,,,,
+citrus aurantium,"21,30",monad,colporate,isopolar,-,circular,spheroidal,['tetra'],colporus,-,reticulate,"-,viscin threads","['Angiospermae', 'Sapindales', 'Rutaceae', '']"
+clavija demerani,,,,,,,,,,,,,
+clavija demerani176,,,,,,,,,,,,,
+cleistocactus strausii,,,,,,,,,,,,,
+clematis rector,,,,,,,,,,,,,
+clematis rector179,,,,,,,,,,,,,
+cleome gynandra,"16,20",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,aperture membrane ornamented,"rugulate,  striatestriate, perforate","-,viscin threads","['Angiospermae', 'Brassicales', 'Capparaceae', '']"
+clerodendrum bungei,"41,100",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,echinate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+clerodendrum bungei182,"41,100",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,echinate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+clerodendrum schweinfurthii,,,,,,,,,,,,,
+clerodendrum speciosbde,,,,,,,,,,,,,
+clerodendrum splendens,,,,,,,,,,,,,
+clerodendrum splendens186,,,,,,,,,,,,,
+clerodendrum thomsonii,"51,100",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,"echinate, perforate","-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+clerodendrum thomsonii188,"51,100",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,"echinate, perforate","-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+clivia miniata,,,,,,,,,,,,,
+clivia miniata190,,,,,,,,,,,,,
+clusia palmicida,,,,,,,,,,,,,
+clusia palmicida192,,,,,,,,,,,,,
+cneorum tricoccum,,,,,,,,,,,,,
+cochiostemia odoratissimum,"26,50",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,aperture membrane ornamented,"psilate, microverrucate, perforate","-,viscin threads","['Angiospermae', 'Commelinales', 'Commelinaceae', '']"
+cochiostemia odoratissimum195,"26,50",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,aperture membrane ornamented,"psilate, microverrucate, perforate","-,viscin threads","['Angiospermae', 'Commelinales', 'Commelinaceae', '']"
+cochlearia officinalis,,,,,,,,,,,,,
+codonanthe gracilis,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,aperture membrane ornamented,microreticulate,"ubisch bodies,viscin threads","['Angiospermae', 'Lamiales', 'Gesneriaceae', '']"
+coffea arabica,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"rugulate, fossulate, granulate, no suitable term","ubisch bodies,viscin threads","['Angiospermae', 'Gentianales', 'Rubiaceae', '']"
+colchicum byzantium,,,,,,,,,,,,,
+colchicum byzantium200,,,,,,,,,,,,,
+colchicum hungaricum,,,,,,,,,,,,,
+columnea ,,,,,,,,,,,,,
+commideadrum rugosum,,,,,,,,,,,,,
+commideadrum rugosum204,,,,,,,,,,,,,
+conophytum tayloriensis,,,,,,,,,,,,,
+convolvolus arvensis,"51,100",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,"scabrate,  verrucate,  gemmateperforate, microechinate","-,viscin threads","['Angiospermae', 'Solanales', 'Convolvulaceae', '']"
+convolvulus boissieri,,,,,,,,,,,,,
+copiapoa humilis,,,,,,,,,,,,,
+cordia sebestena,"36,50",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,aperture membrane ornamented,reticulatereticulate,"ubisch bodies,viscin threads","['Angiospermae', 'unplaced', 'Boraginaceae', '']"
+cordyline australis,,,,,,,,,,,,,
+cordyline australis211,,,,,,,,,,,,,
+coreopsis tinctoria,,,,,,,,,,,,,
+coreopsis tinctoria213,,,,,,,,,,,,,
+coriandrum sativum,"11,30",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Apiales', 'Apiaceae', '']"
+cornus eddies,,,,,,,,,,,,,
+cornus drummondii,,,,,,,,,,,,,
+cornus drummondii217,,,,,,,,,,,,,
+cornus sanguinea,"51,100",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,aperture membrane psilate,"scabrate,  verrucate,  gemmateperforate, microechinate","-,viscin threads","['Angiospermae', 'Cornales', 'Cornaceae', '']"
+correa backhousiana,"26,50",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,aperture membrane ornamented,microreticulate,"-,viscin threads","['Angiospermae', 'Sapindales', 'Rutaceae', '']"
+correa backhousiana220,"26,50",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,aperture membrane ornamented,microreticulate,"-,viscin threads","['Angiospermae', 'Sapindales', 'Rutaceae', '']"
+corydalis henrickii,,,,,,,,,,,,,
+corylopsis spicata,,,,,,,,,,,,,
+corylus avellana,"21,30",monad,porate,isopolar,-,circular,spheroidal,['tri'],porus,"annulus, operculum, oncus","psilaterugulate, granulate","ubisch bodies,viscin threads","['Angiospermae', 'Fagales', 'Betulaceae', '']"
+coryphantha ,,,,,,,,,,,,,
+cosmos bipinnatus,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinate, perforate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+cosmos sulphureus,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinate, perforate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+cosmos sulphureus227,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinate, perforate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+cotoneaster integerrinius,"26,35",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"rugulate, striate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+cotoneaster integerrinius229,"26,35",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"rugulate, striate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+cotyledon ladysmithiensis,,,,,,,,,,,,,
+cotyledon paniculata,,,,,,,,,,,,,
+cotyledon paniculata232,,,,,,,,,,,,,
+crassula ovata,,,,,,,,,,,,,
+crataegus laevigata,"36,100",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,-,"rugulate,  striatestriate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+crataegus monogyna,"26,50",monad,colporate,isopolar,oblate,circular,-,['tri'],colporus,-,"rugulate, striatestriate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+crinum bulbispermum,"31,100",monad,sulcate,isopolar,oblate,elliptic,-,['di'],sulcus,-,echinate,"-,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+crinum bulbispermum237,"31,100",monad,sulcate,isopolar,oblate,elliptic,-,['di'],sulcus,-,echinate,"-,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+crinum morrei,,,,,,,,,,,,,
+crinum morrei239,,,,,,,,,,,,,
+crinum powellii,,,,,,,,,,,,,
+cucubita pepo,"101,101",monad,porate,-,-,circular,spheroidal,['panto'],porus,"pantoaperturate, operculum","echinateechinate, baculate","-,viscin threads","['Angiospermae', 'Cucurbitales', 'Cucurbitaceae', '']"
+cucumis sativus,"36,100",monad,porate,isopolar,-,circular,spheroidal,['tri'],porus,annulus,"scabrate,  verrucate,  gemmateperforate","-,viscin threads","['Angiospermae', 'Cucurbitales', 'Cucurbitaceae', '']"
+cupressus duclouxiana,,,,,,,,,,,,,
+cycas rumphii,,,,,,,,,,,,,
+cyclamen hederifolium,"11,15",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,psilatemicroverrucate,"ubisch bodies,viscin threads","['Angiospermae', 'Ericales', 'Primulaceae', '']"
+cymbalana muralis,"11,15",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,aperture membrane psilate,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Plantaginaceae', '']"
+cymbopogon citratus,,,,,,,,,,,,,
+cymbopogon citratus248,,,,,,,,,,,,,
+cynaria scolymus,"51,100",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,echinate,"-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+cynaria scolymus250,"51,100",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,echinate,"-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+cyperis papyrus,"21,35",monad,tetrad,heteropolar,-,irregular,-,[],poroid,"aperture membrane ornamented, operculum","scabrate,  verrucate,  gemmatemicroverrucate, perforate","-,viscin threads","['Angiospermae', 'Poales', 'Cyperaceae', '']"
+cyrtanthus mackenii,,,,,,,,,,,,,
+cyrtanthus mackenii253,,,,,,,,,,,,,
+cytisus battandieri,,,,,,,,,,,,,
+cytisus sessifolius,,,,,,,,,,,,,
+cytisus sessifolius256,,,,,,,,,,,,,
+daphne bholua,,,,,,,,,,,,,
+davidia involucre,,,,,,,,,,,,,
+delosperma taylori,,,,,,,,,,,,,
+dermatobotris saundersii,,,,,,,,,,,,,
+derris elliptica,,,,,,,,,,,,,
+derris elliptica262,,,,,,,,,,,,,
+deschampsia cespitosa,,,,,,,,,,,,,
+deutzia magnifica,,,,,,,,,,,,,
+dianthus barbatus,"36,40",monad,porate,-,-,circular,spheroidal,['panto'],porus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Caryophyllales', 'Caryophyllaceae', '']"
+digitalis grandiflora,"21,25",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,aperture membrane psilate,"scabrate,  verrucate,  gemmatemicroreticulate","ubisch bodies,viscin threads","['Angiospermae', 'Lamiales', 'Plantaginaceae', '']"
+digitalis purpurea,"16,25",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,aperture membrane psilate,reticulatemicroreticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Plantaginaceae', '']"
+digitalis purpurea268,"16,25",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,aperture membrane psilate,reticulatemicroreticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Plantaginaceae', '']"
+dionaea muscipula,"51,100",tetrad,"tetrad, porate",heteropolar,-,circular,spheroidal,['panto'],porus,"stephanoaperturate, operculum","gemmate, clavate","ubisch bodies,viscin threads","['Angiospermae', 'Caryophyllales', 'Droseraceae', '']"
+dionaea muscipula270,"51,100",tetrad,"tetrad, porate",heteropolar,-,circular,spheroidal,['panto'],porus,"stephanoaperturate, operculum","gemmate, clavate","ubisch bodies,viscin threads","['Angiospermae', 'Caryophyllales', 'Droseraceae', '']"
+dioscorea elephantipes,,,,,,,,,,,,,
+dipelta floribunda,,,,,,,,,,,,,
+distylium racemosum,,,,,,,,,,,,,
+dolichos lablab,"36,50",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,-,reticulate,"-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+dombeya burgessiae,,,,,,,,,,,,,
+drosanthemum hispidum,,,,,,,,,,,,,
+drosera anglica,,,,,,,,,,,,,
+drosera anglica278,,,,,,,,,,,,,
+dudleya hassei,,,,,,,,,,,,,
+ecballium elaterium,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,margo,reticulate,"-,viscin threads","['Angiospermae', 'Cucurbitales', 'Cucurbitaceae', '']"
+ecballium elaterium281,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,margo,reticulate,"-,viscin threads","['Angiospermae', 'Cucurbitales', 'Cucurbitaceae', '']"
+echium vulgare,"11,20",monad,colporate,heteropolar,prolate,circular,-,['tri'],colporus,aperture membrane ornamented,reticulateperforate,"-,viscin threads","['Angiospermae', 'unplaced', 'Boraginaceae', '']"
+encephalartos gratus,,,,,,,,,,,,,
+endymion non-scriptus,,,,,,,,,,,,,
+ensete ventricosum,,,,,,,,,,,,,
+ensete ventricosum286,,,,,,,,,,,,,
+ephedra frustillata,,,,,,,,,,,,,
+epimedium perralderlanum,,,,,,,,,,,,,
+epimedium versicolor,,,,,,,,,,,,,
+epiphyllum eyriesii,,,,,,,,,,,,,
+eranthis cilicica,,,,,,,,,,,,,
+eremurus himalaicus,,,,,,,,,,,,,
+erica cinerea,"41,100",tetrad,"tetrad, colporate",heteropolar,-,circular,-,['tri'],colporus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Ericales', 'Ericaceae', '']"
+erica cinerea294,"41,100",tetrad,"tetrad, colporate",heteropolar,-,circular,-,['tri'],colporus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Ericales', 'Ericaceae', '']"
+erodium manescarvii,,,,,,,,,,,,,
+eryngium paniculata,,,,,,,,,,,,,
+erythronium pagoda,,,,,,,,,,,,,
+erythronium pagoda298,,,,,,,,,,,,,
+eschschotzia californica,"26,50",monad,colpate,isopolar,-,circular,spheroidal,['penta'],colpus,aperture membrane psilate,"reticulatereticulate, perforate, bireticulate","-,viscin threads","['Angiospermae', 'Ranunculales', 'Papaveraceae', '']"
+escobaria chihuahuensis,,,,,,,,,,,,,
+escobaria chihuahuensis301,,,,,,,,,,,,,
+eucharis amazonica,,,,,,,,,,,,,
+eucharis amazonica303,,,,,,,,,,,,,
+eugenia jambos,,,,,,,,,,,,,
+eugenia jambos305,,,,,,,,,,,,,
+euphorbia amygdoiloides,"26,35",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Malpighiales', 'Euphorbiaceae', '']"
+euphorbia millii,,,,,,,,,,,,,
+euphorbia rigida,,,,,,,,,,,,,
+euphorbia rigida309,,,,,,,,,,,,,
+euphorbia rigida310,,,,,,,,,,,,,
+euphorbia rigida311,,,,,,,,,,,,,
+fabiana imbricata,,,,,,,,,,,,,
+fagus sylvatica,"36,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"scabrate,  verrucate,  gemmaterugulate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Fagales', 'Fagaceae', '']"
+fagus sylvatica314,"36,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"scabrate,  verrucate,  gemmaterugulate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Fagales', 'Fagaceae', '']"
+fagus sylvatica315,"36,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"scabrate,  verrucate,  gemmaterugulate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Fagales', 'Fagaceae', '']"
+fargesia nitida,"26,50",monad,ulcerate,heteropolar,-,circular,spheroidal,[],ulcus,"aperture membrane ornamented, annulus","areolate, microechinate","ubisch bodies,viscin threads","['Angiospermae', 'Poales', 'Poaceae', '']"
+fatsia japonica,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,margo,"reticulate, clavate","ubisch bodies,viscin threads","['Angiospermae', 'Apiales', 'Araliaceae', '']"
+feijoa sellowiana,,,,,,,,,,,,,
+foenicum vulgare,"11,30",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Apiales', 'Apiaceae', '']"
+forsythia intermedia,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,reticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Oleaceae', '']"
+fragaria vesca,"16,25",monad,-,isopolar,oblate,triangular,-,['tri'],colporus,operculum,"rugulate,  striate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+fraxinus excelsior,"16,25",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,"reticulatereticulate, heterobrochate, granulate","-,viscin threads","['Angiospermae', 'Lamiales', 'Oleaceae', '']"
+fraxinus ornus,"16,20",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,-,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Oleaceae', '']"
+freesia ,,,,,,,,,,,,,
+fritillaria imperialis,"51,100",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,microreticulate,"-,viscin threads","['Angiospermae', 'Liliales', 'Liliaceae', '']"
+fritillaria imperialis326,"51,100",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,microreticulate,"-,viscin threads","['Angiospermae', 'Liliales', 'Liliaceae', '']"
+fritillaria pyrenaica,,,,,,,,,,,,,
+fritillaria ,,,,,,,,,,,,,
+fuchsia ,,,,,,,,,,,,,
+gaillardia grandiflora,,,,,,,,,,,,,
+gaillardia grandiflora331,,,,,,,,,,,,,
+galanthus elwesii,,,,,,,,,,,,,
+galeobdelon luteum,,,,,,,,,,,,,
+galeya officinalis,"11,20",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,psilate,"-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+galeya officinalis335,"11,20",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,psilate,"-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+garrya elliptica,,,,,,,,,,,,,
+garrya elliptica337,,,,,,,,,,,,,
+gasteria pulcra,,,,,,,,,,,,,
+gasteria pulcra339,,,,,,,,,,,,,
+gaussia attenuata,,,,,,,,,,,,,
+gaussia attenuata341,,,,,,,,,,,,,
+geranium maderence,,,,,,,,,,,,,
+geranium maderence343,,,,,,,,,,,,,
+geranium robertianum,"51,100",monad,colporate,isopolar,oblate,circular,-,['tri'],colporus,brevicolporus,"reticulate, clavatereticulate, clavate","-,viscin threads","['Angiospermae', 'Geraniales', 'Geraniaceae', '']"
+gilia achilleifolia,,,,,,,,,,,,,
+gladiolus tristis,,,,,,,,,,,,,
+gladiolus tristis347,,,,,,,,,,,,,
+glechoma hederacea,"36,50",monad,colpate,isopolar,oblate,elliptic,-,"['hexa', 'stephano']",colpus,"aperture membrane ornamented, stephanoaperturate",reticulatemicroreticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+glechoma hederacea349,"36,50",monad,colpate,isopolar,oblate,elliptic,-,"['hexa', 'stephano']",colpus,"aperture membrane ornamented, stephanoaperturate",reticulatemicroreticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+globularia alypum,,,,,,,,,,,,,
+glumicalyx flanniganii,,,,,,,,,,,,,
+goethea strictiflora,,,,,,,,,,,,,
+goethea strictiflora353,,,,,,,,,,,,,
+gossypium arboreum,,,,,,,,,,,,,
+gossypium hirsutum,,,,,,,,,,,,,
+graptopetalum paraguayense,,,,,,,,,,,,,
+gunnera manicata,,,,,,,,,,,,,
+gunnera manicata358,,,,,,,,,,,,,
+gymnocalycium mihanobe,,,,,,,,,,,,,
+gymnospermium albertii,,,,,,,,,,,,,
+gypsophila elegans,,,,,,,,,,,,,
+haemanthus albiflos,,,,,,,,,,,,,
+halesia tetraptera,,,,,,,,,,,,,
+hardenbergia comptoniana,,,,,,,,,,,,,
+hedera helix,"26,30",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,margo,"reticulatereticulate, heterobrochate","-,viscin threads","['Angiospermae', 'Apiales', 'Araliaceae', '']"
+helenium bigelovii,,,,,,,,,,,,,
+helianthus annuus,"26,30",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinateechinate, perforate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+helianthus pauciflora,,,,,,,,,,,,,
+helichrysum bracteatum,"26,35",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,echinate,"-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+helichrysum sibthorpii,,,,,,,,,,,,,
+helleborus foetidus,"21,30",monad,colpate,isopolar,oblate,circular,-,['tri'],colpus,aperture membrane ornamented,"scabrate,  verrucate,  gemmatemicroreticulate, microverrucate","ubisch bodies,viscin threads","['Angiospermae', 'Ranunculales', 'Ranunculaceae', '']"
+helleborus niger,"26,35",monad,colpate,isopolar,oblate,circular,-,['tri'],colpus,aperture membrane ornamented,"scabrate,  verrucate,  gemmateperforate, microechinate","ubisch bodies,viscin threads","['Angiospermae', 'Ranunculales', 'Ranunculaceae', '']"
+hemerocallis minor,,,,,,,,,,,,,
+heteropteris chrysophila,,,,,,,,,,,,,
+hibbertia cuneiformis,,,,,,,,,,,,,
+hibiscus pedunculatus,,,,,,,,,,,,,
+hibiscus syriacus,"26,30",monad,porate,-,-,circular,spheroidal,"['panto', 'panto']",porus,pantoaperturate,"echinateechinate, perforate, microgemmate","-,viscin threads","['Angiospermae', 'Malvales', 'Malvaceae', '']"
+hibiscus syriacus378,"26,30",monad,porate,-,-,circular,spheroidal,"['panto', 'panto']",porus,pantoaperturate,"echinateechinate, perforate, microgemmate","-,viscin threads","['Angiospermae', 'Malvales', 'Malvaceae', '']"
+hibiscus rosa-sinensis,"101,101",monad,porate,-,-,circular,spheroidal,"['panto', 'panto']",porus,pantoaperturate,echinate,"-,viscin threads","['Angiospermae', 'Malvales', 'Malvaceae', '']"
+hieracium rionii,,,,,,,,,,,,,
+hirpicium armerioides,,,,,,,,,,,,,
+hosta ,,,,,,,,,,,,,
+hoya australis,"101,101",pollinium,-,heteropolar,-,-,-,['in'],no aperture,-,"psilate, fossulate, perforate","-,viscin threads","['Angiospermae', 'Gentianales', 'Apocynaceae', '']"
+hyacinthella glabrescens,,,,,,,,,,,,,
+hyacinthoides non-scripta,,,,,,,,,,,,,
+hyacinthus orientalis,"36,100",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,reticulate,"-,viscin threads","['Angiospermae', 'Asparagales', 'Hyacinthaceae', '']"
+hydranga macrophylla,"16,25",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,reticulate,"-,viscin threads","['Angiospermae', 'Cornales', 'Hydrangeaceae', '']"
+hymenocallis caribaea,,,,,,,,,,,,,
+hymenocallis littoralis,"101,101",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,"reticulatereticulate, clavate","-,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+hymenocallis littoralis390,"101,101",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,"reticulatereticulate, clavate","-,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+hymenocallis narcissiflora,,,,,,,,,,,,,
+hymenocallis ,,,,,,,,,,,,,
+hymenocallis 393,,,,,,,,,,,,,
+hypericum hircineum,,,,,,,,,,,,,
+hypericum prolificum,,,,,,,,,,,,,
+hypericum ,,,,,,,,,,,,,
+hypoestes phyllostachya,"26,50",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,"heteroaperturate, pseudocolpus, aperture membrane ornamented","reticulate, perforate","-,viscin threads","['Angiospermae', 'Lamiales', 'Acanthaceae', '']"
+hyssopus officinalis,"21,30",monad,colpate,isopolar,oblate,elliptic,-,['hexa'],colpus,"aperture membrane ornamented, stephanoaperturate","reticulatereticulate, microreticulate, bireticulate","-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+ilex aquifolium,"21,30",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,clavateclavate,"-,viscin threads","['Angiospermae', 'Aquifoliales', 'Aquifoliaceae', '']"
+impatiens balsamata,,,,,,,,,,,,,
+impatiens glandulifera,"16,30",monad,colpate,isopolar,oblate,quadrangular,-,['tetra'],colpus,brevicolpus,"reticulatereticulate, freestanding columellae","-,viscin threads","['Angiospermae', 'Ericales', 'Balsaminaceae', '']"
+impatiens tinctoria,,,,,,,,,,,,,
+impatiens tinctoria403,,,,,,,,,,,,,
+impatiens walleriana,"16,35",monad,colpate,isopolar,oblate,quadrangular,-,['tetra'],colpus,brevicolpus,reticulate,"-,viscin threads","['Angiospermae', 'Ericales', 'Balsaminaceae', '']"
+indigofera tinctoria,,,,,,,,,,,,,
+ipheion uniflorum,"26,50",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,microreticulate,"ubisch bodies,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+ipomaea indica,,,,,,,,,,,,,
+ipomoea lanata,,,,,,,,,,,,,
+ipomoea mauritania,,,,,,,,,,,,,
+iris unguicularis,,,,,,,,,,,,,
+isatis tinctoria,"21,25",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,-,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+isatis tinctoria412,"21,25",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,-,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+jatropha integerrima,"51,100",monad,inaperturate,isopolar,-,circular,spheroidal,['in'],no aperture,-,"clavate, croton pattern, reticulate, freestanding columellaeclavate, reticulate, croton pattern, freestanding columellae","-,viscin threads","['Angiospermae', 'Malpighiales', 'Euphorbiaceae', '']"
+jatropha integerrima414,"51,100",monad,inaperturate,isopolar,-,circular,spheroidal,['in'],no aperture,-,"clavate, croton pattern, reticulate, freestanding columellaeclavate, reticulate, croton pattern, freestanding columellae","-,viscin threads","['Angiospermae', 'Malpighiales', 'Euphorbiaceae', '']"
+juglans elaeopyrea,,,,,,,,,,,,,
+juglans regia,"36,50",monad,porate,isopolar,oblate,circular,-,"['panto', 'panto']",porus,"pantoaperturate, aperture membrane ornamented, annulus","scabrate,  verrucate,  gemmatemicroechinate","-,viscin threads","['Angiospermae', 'Fagales', 'Juglandaceae', '']"
+juglans regia417,"36,50",monad,porate,isopolar,oblate,circular,-,"['panto', 'panto']",porus,"pantoaperturate, aperture membrane ornamented, annulus","scabrate,  verrucate,  gemmatemicroechinate","-,viscin threads","['Angiospermae', 'Fagales', 'Juglandaceae', '']"
+juniperis communis,"9,30",monad,ulcerate,heteropolar,-,circular,spheroidal,['in'],inaperturate,-,"scabrate,  verrucate,  gemmategranulate","ubisch bodies,viscin threads","['Gymnospermae', 'Pinales', 'Cupressaceae', '']"
+kalanchoe delagoensis,,,,,,,,,,,,,
+kalanchoe moneriana,,,,,,,,,,,,,
+knautia arvensis,"51,101",monad,porate,isopolar,oblate,circular,-,['tri'],porus,operculum,"echinateechinate, microechinate, perforate","-,viscin threads","['Angiospermae', 'Dipsacales', 'Caprifoliaceae', '']"
+knowitonia capensis,,,,,,,,,,,,,
+laburnum anagyroides,"16,25",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,margo,psilatemicroreticulate,"-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+lachenalia bulbifera,,,,,,,,,,,,,
+lambranthus formosus,,,,,,,,,,,,,
+lamium album,"16,25",monad,colpate,isopolar,isodiametric,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,reticulatereticulum cristatum,"-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+lamium purpureum,"26,35",monad,colpate,isopolar,isodiametric,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,reticulatemicroreticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+lamium purpureum428,"26,35",monad,colpate,isopolar,isodiametric,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,reticulatemicroreticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+lamium purpureum429,"26,35",monad,colpate,isopolar,isodiametric,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,reticulatemicroreticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+lantana camara,"36,50",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,-,"psilatepsilate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Lamiales', 'Verbenaceae', '']"
+lathraea clandestina,"26,50",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,-,"microgemmate, microreticulate","ubisch bodies,viscin threads","['Angiospermae', 'Lamiales', 'Orobanchaceae', '']"
+lavandula angustifolia,"31,40",monad,colpate,isopolar,oblate,elliptic,-,"['hexa', 'stephano']",colpus,stephanoaperturate,"scabrate,  verrucate,  gemmatefoveolate","-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+lavandula dentata,,,,,,,,,,,,,
+lavandula dentata434,,,,,,,,,,,,,
+lavatera arborea,,,,,,,,,,,,,
+lavatera maritima,,,,,,,,,,,,,
+lavatera maritima437,,,,,,,,,,,,,
+lavatera trimestris,,,,,,,,,,,,,
+layia platyglossa,,,,,,,,,,,,,
+leucadendrum tinctum,,,,,,,,,,,,,
+leucojum aestivum,"21,30",monad,sulcate,heteropolar,-,circular,spheroidal,[],sulcus,-,psilateperforate,"ubisch bodies,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+leucojum tingitanum,,,,,,,,,,,,,
+lewisia cotyledon,,,,,,,,,,,,,
+lilium ,,,,,,,,,,,,,
+limnanthes douglasii,"26,50",monad,sulcate,heteropolar,oblate,elliptic,-,[],ring-like aperture,"aperture membrane ornamented, margo","microechinate, perforate, striate","-,viscin threads","['Angiospermae', 'Brassicales', 'Limnanthaceae', '']"
+linum austriacum,"51,100",monad,colpate,isopolar,oblate,circular,-,['tri'],colpus,aperture membrane ornamented,"clavate, baculateclavate, microechinate","-,viscin threads","['Angiospermae', 'Malpighiales', 'Linaceae', '']"
+linum austriacum447,"51,100",monad,colpate,isopolar,oblate,circular,-,['tri'],colpus,aperture membrane ornamented,"clavate, baculateclavate, microechinate","-,viscin threads","['Angiospermae', 'Malpighiales', 'Linaceae', '']"
+linum usitatissimum,"51,100",monad,colpate,isopolar,oblate,circular,-,['tri'],colpus,aperture membrane ornamented,"clavate,  bacculate","-,viscin threads","['Angiospermae', 'Malpighiales', 'Linaceae', '']"
+liquidamber orientalis,,,,,,,,,,,,,
+lithops lesliei,,,,,,,,,,,,,
+lithops otzeniana,,,,,,,,,,,,,
+lobivia arachnacantha,,,,,,,,,,,,,
+lobivia arachnacantha453,,,,,,,,,,,,,
+lobularia maritima,"11,20",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+lonicera infundibulum,,,,,,,,,,,,,
+lonicera infundibulum456,,,,,,,,,,,,,
+lonicera nitida,"41,100",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,brevicolporus,echinate,"-,viscin threads","['Angiospermae', 'Dipsacales', 'Caprifoliaceae', '']"
+lonicera periclymenum,,,,,,,,,,,,,
+lonicera perpusii,,,,,,,,,,,,,
+lophophora williamsii,"51,100",monad,clypeate,-,-,circular,spheroidal,"['panto', 'panto']",colpus,"aperture membrane ornamented, synaperturate","reticulate, microechinate","ubisch bodies,viscin threads","['Angiospermae', 'Caryophyllales', 'Cactaceae', '']"
+lophophora williamsii461,"51,100",monad,clypeate,-,-,circular,spheroidal,"['panto', 'panto']",colpus,"aperture membrane ornamented, synaperturate","reticulate, microechinate","ubisch bodies,viscin threads","['Angiospermae', 'Caryophyllales', 'Cactaceae', '']"
+luffa cylindrica,"51,100",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"reticulatereticulate, perforate","-,viscin threads","['Angiospermae', 'Cucurbitales', 'Cucurbitaceae', '']"
+luffa cylindrica463,"51,100",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"reticulatereticulate, perforate","-,viscin threads","['Angiospermae', 'Cucurbitales', 'Cucurbitaceae', '']"
+lunaria annua,"21,30",monad,colpate,isopolar,prolate,circular,-,['tri'],colpus,-,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+lunaria rediviva,"21,30",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,-,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Brassicales', 'Brassicaceae', '']"
+lupinus polyphyllus,"26,35",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,"margo, aperture membrane ornamented","reticulatereticulate, perforate","-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+luzulla campestris,"26,50",tetrad,tetrad,heteropolar,oblate,circular,-,[],ulcus,aperture membrane ornamented,granulate,"-,viscin threads","['Angiospermae', 'Poales', 'Juncaceae', '']"
+lychnis flos-cuculi,"36,40",monad,porate,isopolar,isodiametric,circular,spheroidal,"['panto', 'panto']",porus,"pantoaperturate, operculum","scabrate,  verrucate,  gemmateperforate, microechinate","ubisch bodies,viscin threads","['Angiospermae', 'Caryophyllales', 'Caryophyllaceae', '']"
+lycopersicum esculentum,"16,25",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,-,"scabrate,  verrucate,  gemmateverrucate, microverrucate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Solanales', 'Solanaceae', '']"
+lysimachia nummularia,"26,30",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,margo,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Ericales', 'Primulaceae', '']"
+lysimachia nummularia471,"26,30",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,margo,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Ericales', 'Primulaceae', '']"
+macadamia tetraphylla,"16,35",monad,porate,heteropolar,oblate,triangular,-,['tri'],porus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Proteales', 'Proteaceae', '']"
+mackaya bella,,,,,,,,,,,,,
+macropiper excelsum,,,,,,,,,,,,,
+magnolia iolanthe,,,,,,,,,,,,,
+magnolia vulcan,,,,,,,,,,,,,
+mahonia aquifolia,"41,50",monad,clypeate,-,-,circular,spheroidal,"['hexa', 'syn', 'panto']",colpus,"synaperturate, pantoaperturate","scabrate,  verrucate,  gemmatepsilate, perforate","-,viscin threads","['Angiospermae', 'Ranunculales', 'Berberidaceae', '']"
+malus sylvestris,"21,35",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"rugulate, striatestriate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+malus robusta,,,,,,,,,,,,,
+malva moschata,"101,101",monad,porate,isopolar,-,circular,spheroidal,"['panto', 'panto']",porus,pantoaperturate,"echinateechinate, perforate, microgemmate","-,viscin threads","['Angiospermae', 'Malvales', 'Malvaceae', '']"
+malvaviscus arboreus,,,,,,,,,,,,,
+mammillaria bocasana,,,,,,,,,,,,,
+mammillaria duwei,,,,,,,,,,,,,
+mammillaria glassii,,,,,,,,,,,,,
+mammillaria sonoriensis,,,,,,,,,,,,,
+manihof esculenta,,,,,,,,,,,,,
+meconopsis sheldonii,,,,,,,,,,,,,
+meconopsis sheldonii488,,,,,,,,,,,,,
+medinilla magnifica,,,,,,,,,,,,,
+medinilla venosa,,,,,,,,,,,,,
+mentha spicata,,,,,,,,,,,,,
+mercurialis perennis,"21,25",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,aperture membrane ornamented,"reticulatereticulate, microgemmate","ubisch bodies,viscin threads","['Angiospermae', 'Malpighiales', 'Euphorbiaceae', '']"
+mesembryanthemum ,,,,,,,,,,,,,
+mespilus germanica,,,,,,,,,,,,,
+michelia figo,,,,,,,,,,,,,
+mimosa pudica,"9,9",tetrad,tetrad,heteropolar,oblate,-,-,['in'],no aperture,-,psilateareolate,"-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+mimulus cardinalis,,,,,,,,,,,,,
+mirabilis jalopa,"101,101",monad,porate,isopolar,-,circular,spheroidal,"['panto', 'panto']",porus,pantoaperturate,"echinate, perforate","-,viscin threads","['Angiospermae', 'Caryophyllales', 'Nyctaginaceae', '']"
+miscanthus sinensis,,,,,,,,,,,,,
+mitrostigma axillare,,,,,,,,,,,,,
+mitrostigma axillare501,,,,,,,,,,,,,
+molucella laevis,"26,30",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,"scabrate, reticulate","-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+morus mongolica,,,,,,,,,,,,,
+murraya paniculata,"26,35",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,-,"rugulate,  striate","-,viscin threads","['Angiospermae', 'Sapindales', 'Rutaceae', '']"
+murraya paniculata505,"26,35",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,-,"rugulate,  striate","-,viscin threads","['Angiospermae', 'Sapindales', 'Rutaceae', '']"
+musa rubra,,,,,,,,,,,,,
+musa rubra507,,,,,,,,,,,,,
+musari armeniacum,"21,30",monad,sulcate,isopolar,oblate,elliptic,-,[],sulcus,-,reticulate,"-,viscin threads","['Angiospermae', 'Asparagales', 'Asparagaceae', '']"
+myrtus communis,"10,25",monad,synaperturate,isopolar,oblate,triangular,-,['tri'],colporus,angulaperturate,verrucate,"ubisch bodies,viscin threads","['Angiospermae', 'Myrtales', 'Myrtaceae', '']"
+napoleonica vogelii,,,,,,,,,,,,,
+narcissus bulbocodium,"51,100",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,reticulate,"-,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+narcissus bulbocodium512,"51,100",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,reticulate,"-,viscin threads","['Angiospermae', 'Asparagales', 'Amaryllidaceae', '']"
+narcissus cantabricus,,,,,,,,,,,,,
+narcissus cantabricus514,,,,,,,,,,,,,
+narcissus romieuxii,,,,,,,,,,,,,
+narcissus ,,,,,,,,,,,,,
+narcissus 517,,,,,,,,,,,,,
+narthecium ossifragum,"16,25",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,reticulatemicroreticulate,"ubisch bodies,viscin threads","['Angiospermae', 'Liliales', 'Melanthiaceae', '']"
+nectaroscordum siculum,,,,,,,,,,,,,
+nectaroscordum siculum520,,,,,,,,,,,,,
+nematanthus penanthomegus,,,,,,,,,,,,,
+nemophilia maculata,,,,,,,,,,,,,
+neoregalia concentrica,,,,,,,,,,,,,
+nepenthes miranda,,,,,,,,,,,,,
+nerium oleander,"31,40",monad,porate,isopolar,-,circular,spheroidal,['tetra'],porus,-,psilatepsilate,"ubisch bodies,viscin threads","['Angiospermae', 'Gentianales', 'Apocynaceae', '']"
+nicandra physaloides,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"rugulate, perforate","-,viscin threads","['Angiospermae', 'Solanales', 'Solanaceae', '']"
+nicotiana alata,"26,30",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"rugulate,  striate","-,viscin threads","['Angiospermae', 'Solanales', 'Solanaceae', '']"
+nicotiana lansdorffii,,,,,,,,,,,,,
+nicotiana suaveolen,,,,,,,,,,,,,
+nicotiana sylvestris,,,,,,,,,,,,,
+nicotiana tabacum,"26,30",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,aperture membrane ornamented,"rugulate,  striaterugulate, perforate","-,viscin threads","['Angiospermae', 'Solanales', 'Solanaceae', '']"
+nigella damascena,"36,50",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Ranunculales', 'Ranunculaceae', '']"
+notocactus scopa,,,,,,,,,,,,,
+ochna atropurpureum,,,,,,,,,,,,,
+ocimum basilicum,"41,100",monad,colpate,isopolar,oblate,circular,-,"['hexa', 'stephano']",colpus,"stephanoaperturate, aperture membrane psilate","reticulate, bireticulatereticulate, microreticulate, bireticulate","-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+oenothera biennis,"51,100",monad,porate,heteropolar,oblate,triangular,-,['tri'],porus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Myrtales', 'Onagraceae', '']"
+oenothera macrocarpa,"101,101",monad,porate,heteropolar,oblate,triangular,-,['tri'],porus,"aperture membrane ornamented, annulus","microgemmate, perforate","-,viscin threads","['Angiospermae', 'Myrtales', 'Onagraceae', '']"
+oenothera missouriensis,,,,,,,,,,,,,
+oenothera stricta,,,,,,,,,,,,,
+oenothera tetragona,,,,,,,,,,,,,
+onobrychis viciifolia,"21,40",monad,colpate,isopolar,prolate,circular,-,['tri'],colpus,aperture membrane ornamented,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+onobrychis viciifolia542,"21,40",monad,colpate,isopolar,prolate,circular,-,['tri'],colpus,aperture membrane ornamented,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+opuntia lindheimeri,,,,,,,,,,,,,
+opuntia microdasys,,,,,,,,,,,,,
+ornithogalum longibracteatum,,,,,,,,,,,,,
+ornithogalum longibracteatum546,,,,,,,,,,,,,
+ornithogalum umbellatum,"31,40",monad,sulcate,heteropolar,-,circular,spheroidal,[],sulcus,-,"reticulatefoveolate, perforate","-,viscin threads","['Angiospermae', 'Asparagales', 'Asparagaceae', '']"
+orphicum frutescens,,,,,,,,,,,,,
+orphicum frutescens549,,,,,,,,,,,,,
+osmanthus delavayi,,,,,,,,,,,,,
+ostrya carpinifolia,"10,25",monad,porate,isopolar,-,circular,spheroidal,['tri'],porus,aperture membrane ornamented,"microrugulate, microechinate","-,viscin threads","['Angiospermae', 'Fagales', 'Betulaceae', '']"
+oxalis ortiesii,,,,,,,,,,,,,
+oxalis rubra,,,,,,,,,,,,,
+pachystachys lutea,"51,100",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,"heteroaperturate, pseudocolpus, aperture membrane ornamented","reticulate, microreticulate, bireticulate","-,viscin threads","['Angiospermae', 'Lamiales', 'Acanthaceae', '']"
+paeonia delavayi,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,aperture membrane ornamented,microreticulate,"-,viscin threads","['Angiospermae', 'Saxifragales', 'Paeoniaceae', '']"
+paeonia lutea,,,,,,,,,,,,,
+paeonia mascula,"26,50",monad,colporate,isopolar,-,triangular,spheroidal,['tri'],colporus,-,reticulate,"-,viscin threads","['Angiospermae', 'Saxifragales', 'Paeoniaceae', '']"
+paeonia suffruticosa,,,,,,,,,,,,,
+paeonia wittmanniana,,,,,,,,,,,,,
+papaver argemone,,,,,,,,,,,,,
+papaver fauriei,,,,,,,,,,,,,
+passiflora caerulea,,,,,,,,,,,,,
+passiflora racemosa,"51,100",monad,porate,isopolar,-,circular,spheroidal,['tri'],ring-like aperture,aperture membrane ornamented,"reticulate, freestanding columellae","-,viscin threads","['Angiospermae', 'Malpighiales', 'Passifloraceae', '']"
+passiflora racemosa564,"51,100",monad,porate,isopolar,-,circular,spheroidal,['tri'],ring-like aperture,aperture membrane ornamented,"reticulate, freestanding columellae","-,viscin threads","['Angiospermae', 'Malpighiales', 'Passifloraceae', '']"
+passiflora ,,,,,,,,,,,,,
+passiflora 566,,,,,,,,,,,,,
+passiflora 567,,,,,,,,,,,,,
+paulownia tomentosa,"16,25",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,reticulatemicroreticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Paulowniaceae', '']"
+pavonia gledhillii,,,,,,,,,,,,,
+pelargonium domesticum,,,,,,,,,,,,,
+pelargonium tetragonum,"51,100",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,striatoreticulatestriatoreticulate,"-,viscin threads","['Angiospermae', 'Geraniales', 'Geraniaceae', '']"
+pentaglottis sempervirens,,,,,,,,,,,,,
+pentas lanceolata,,,,,,,,,,,,,
+peperomia urocarpa,,,,,,,,,,,,,
+persicaria bistorta,"36,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"reticulategranulate, perforate","-,viscin threads","['Angiospermae', 'Caryophyllales', 'Polygonaceae', '']"
+persicaria bistorta576,"36,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"reticulategranulate, perforate","-,viscin threads","['Angiospermae', 'Caryophyllales', 'Polygonaceae', '']"
+persicaria bistorta577,"36,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"reticulategranulate, perforate","-,viscin threads","['Angiospermae', 'Caryophyllales', 'Polygonaceae', '']"
+petroselinum crispum,,,,,,,,,,,,,
+petunia parviflora,,,,,,,,,,,,,
+phacelia tanacelifolia,"10,25",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,"heteroaperturate, pseudocolpus, aperture membrane ornamented","microreticulate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'unplaced', 'Boraginaceae', '']"
+phaius tankervilliae,,,,,,,,,,,,,
+phaius tankervilliae582,,,,,,,,,,,,,
+philadelphus coronarius,"11,20",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,reticulatemicroreticulate,"-,viscin threads","['Angiospermae', 'Cornales', 'Hydrangeaceae', '']"
+philadelphus subcanus,,,,,,,,,,,,,
+philadelphus subcanus585,,,,,,,,,,,,,
+phormium cookianum,,,,,,,,,,,,,
+phormium cookianum587,,,,,,,,,,,,,
+phuopsis stylosa,,,,,,,,,,,,,
+phuopsis stylosa589,,,,,,,,,,,,,
+phyllanthus angustifolius,,,,,,,,,,,,,
+physalis ,,,,,,,,,,,,,
+phytolacca coriacea,,,,,,,,,,,,,
+picea asperata,,,,,,,,,,,,,
+picea pungens,"101,101",monad,saccate,heteropolar,oblate,elliptic,-,[],leptoma,-,"microverrucate, perforate","-,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+picrasma quassoides,,,,,,,,,,,,,
+picrasma quassoides596,,,,,,,,,,,,,
+piloselloides cordata,,,,,,,,,,,,,
+pinus aristata,,,,,,,,,,,,,
+pinus aristata599,,,,,,,,,,,,,
+pinus armandii,,,,,,,,,,,,,
+pinus armandii601,,,,,,,,,,,,,
+pinus bungeana,,,,,,,,,,,,,
+pinus cembra,"51,100",monad,saccate,heteropolar,oblate,elliptic,-,[],leptoma,-,"verrucate, perforate","-,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+pinus cembra604,"51,100",monad,saccate,heteropolar,oblate,elliptic,-,[],leptoma,-,"verrucate, perforate","-,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+pinus contorta,"51,100",monad,saccate,heteropolar,-,no suitable term,bisaccate,[],leptoma,-,"verrucate, perforate","ubisch bodies,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+pinus contorta606,"51,100",monad,saccate,heteropolar,-,no suitable term,bisaccate,[],leptoma,-,"verrucate, perforate","ubisch bodies,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+pinus coulteri,,,,,,,,,,,,,
+pinus densiflora,"51,100",monad,saccate,heteropolar,oblate,no suitable term,-,[],leptoma,-,"verrucate, microverrucate, perforate","-,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+pinus densiflora609,"51,100",monad,saccate,heteropolar,oblate,no suitable term,-,[],leptoma,-,"verrucate, microverrucate, perforate","-,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+pinus halepensis,"41,100",monad,saccate,heteropolar,oblate,no suitable term,saccate,[],colpus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+pinus jeffreyi,,,,,,,,,,,,,
+pinus jeffreyi612,,,,,,,,,,,,,
+pinus leucodermis,,,,,,,,,,,,,
+pinus muricata,,,,,,,,,,,,,
+pinus nigra,"41,100",monad,saccate,heteropolar,oblate,no suitable term,-,[],leptoma,-,"scabrate,  verrucate,  gemmateverrucate, perforate","-,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+pinus nigra616,"41,100",monad,saccate,heteropolar,oblate,no suitable term,-,[],leptoma,-,"scabrate,  verrucate,  gemmateverrucate, perforate","-,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+pinus nigra617,"41,100",monad,saccate,heteropolar,oblate,no suitable term,-,[],leptoma,-,"scabrate,  verrucate,  gemmateverrucate, perforate","-,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+pinus ponderosa,"51,100",monad,-,heteropolar,oblate,-,-,[],leptoma,-,,"-,viscin threads","['Spermatophyta', 'Pinales', 'Pinaceae', '']"
+pinus radiata,,,,,,,,,,,,,
+pinus sabiniana,,,,,,,,,,,,,
+pinus strobus,"101,101",monad,saccate,heteropolar,oblate,elliptic,-,[],leptoma,-,"verrucate, perforate","ubisch bodies,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+pinus sylvestris,"31,100",monad,saccate,heteropolar,-,-,saccate,[],leptoma,-,"scabrate,  verrucate,  gemmateverrucate, perforate","ubisch bodies,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+pinus tabulaeformis,,,,,,,,,,,,,
+pinus taiwanensis,,,,,,,,,,,,,
+pinus teocota,,,,,,,,,,,,,
+pinus thunbergiana,,,,,,,,,,,,,
+pinus wallicheana,"36,100",monad,saccate,heteropolar,-,-,saccate,[],leptoma,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Gymnospermae', 'Pinales', 'Pinaceae', '']"
+piper futokadsura,,,,,,,,,,,,,
+piper yzabalanum,,,,,,,,,,,,,
+pisum sativum,"36,100",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,aperture membrane ornamented,"reticulatereticulate, perforate","-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+plantago lanceolata,"21,25",monad,porate,isopolar,-,circular,spheroidal,"['panto', 'panto']",porus,"operculum, annulus, pantoaperturate","scabrate,  verrucate,  gemmateverrucate, microechinate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Lamiales', 'Plantaginaceae', '']"
+plantago major,"16,25",monad,porate,isopolar,-,circular,spheroidal,"['hexa', 'panto']",porus,"aperture membrane ornamented, pantoaperturate","scabrate,  verrucate,  gemmateverrucate, microechinate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Lamiales', 'Plantaginaceae', '']"
+platanus hybrida,,,,,,,,,,,,,
+platycodon grandiflorus,"36,100",monad,colpate,isopolar,oblate,polygonal,-,"['penta', 'stephano']",colpus,"brevicolpus, stephanoaperturate","scabrate, echinate","-,viscin threads","['Angiospermae', 'Asterales', 'Campanulaceae', '']"
+platycodon grandiflorus635,"36,100",monad,colpate,isopolar,oblate,polygonal,-,"['penta', 'stephano']",colpus,"brevicolpus, stephanoaperturate","scabrate, echinate","-,viscin threads","['Angiospermae', 'Asterales', 'Campanulaceae', '']"
+plumeria rubra,,,,,,,,,,,,,
+podocarpus alpinus,,,,,,,,,,,,,
+polygala myrtifolia,"51,100",monad,colporate,isopolar,-,circular,spheroidal,"['panto', 'stephano']",colporus,-,psilate,"-,viscin threads","['Angiospermae', 'Fabales', 'Polygalaceae', '']"
+polygonum aviculare,"26,50",monad,colporate,isopolar,prolate,circular,-,['tri'],colporus,-,"microechinate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Caryophyllales', 'Polygonaceae', '']"
+polygonum bardschuaricum,,,,,,,,,,,,,
+polygonum bardschuaricum641,,,,,,,,,,,,,
+poncirus trifoliata,"21,30",monad,colporate,isopolar,-,circular,spheroidal,[],colporus,-,"reticulatereticulate, freestanding columellae","-,viscin threads","['Angiospermae', 'Sapindales', 'Rutaceae', '']"
+populus nigra,"26,30",monad,inaperturate,isopolar,-,circular,spheroidal,['in'],no aperture,-,"scabrate,  verrucate,  gemmateno suitable term","ubisch bodies,viscin threads","['Angiospermae', 'Malpighiales', 'Salicaceae', '']"
+populus tremula,"26,35",monad,inaperturate,isopolar,-,circular,spheroidal,['in'],no aperture,-,"scabrate,  verrucate,  gemmatemicroechinate, microreticulate","ubisch bodies,viscin threads","['Angiospermae', 'Malpighiales', 'Salicaceae', '']"
+portulaca grandiflora,"51,100",monad,colpate,-,-,circular,spheroidal,"['panto', 'panto']",colpus,pantoaperturate,"echinate, perforate","-,viscin threads","['Angiospermae', 'Caryophyllales', 'Portulacaceae', '']"
+portulacea afra,,,,,,,,,,,,,
+potentilla salesoviana,,,,,,,,,,,,,
+potentilla vulgaris,,,,,,,,,,,,,
+primula veris,"21,30",monad,colpate,isopolar,-,circular,spheroidal,"['panto', 'stephano']",colpus,stephanoaperturate,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Ericales', 'Primulaceae', '']"
+primula vulgaris,"11,20",monad,colpate,isopolar,-,circular,spheroidal,"['panto', 'stephano']",colpus,"aperture membrane psilate, stephanoaperturate",reticulatereticulate,"-,viscin threads","['Angiospermae', 'Ericales', 'Primulaceae', '']"
+primula vulgaris651,"11,20",monad,colpate,isopolar,-,circular,spheroidal,"['panto', 'stephano']",colpus,"aperture membrane psilate, stephanoaperturate",reticulatereticulate,"-,viscin threads","['Angiospermae', 'Ericales', 'Primulaceae', '']"
+protea cynaroides,,,,,,,,,,,,,
+protea lacticolor,,,,,,,,,,,,,
+prunus avium,"31,50",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,-,"rugulate,  striatestriate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+prunus cerasifera,"26,50",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,-,"rugulate,  striatestriate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+prunus cerasifera656,"26,50",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,-,"rugulate,  striatestriate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+prunus dulcis,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"striate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+prunus jamasakura,,,,,,,,,,,,,
+prunus laurocerasus,"26,50",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,-,"rugulate,  striatestriate, rugulate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+prunus mume,,,,,,,,,,,,,
+prunus serrula,"26,50",monad,colporate,isopolar,oblate,circular,-,['tri'],colporus,-,"rugulate,  striate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+prunus tenella,"26,50",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,-," striatestriate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+prunus dasycarpa,,,,,,,,,,,,,
+prunus hilleri,,,,,,,,,,,,,
+pseuderanthemum retibf,,,,,,,,,,,,,
+pseuderanthemum retibf666,,,,,,,,,,,,,
+psychotria capensis,"26,50",monad,colpate,isopolar,oblate,circular,-,['tri'],colpus,-,foveolate,"-,viscin threads","['Angiospermae', 'Gentianales', 'Rubiaceae', '']"
+psychotria capensis668,"26,50",monad,colpate,isopolar,oblate,circular,-,['tri'],colpus,-,foveolate,"-,viscin threads","['Angiospermae', 'Gentianales', 'Rubiaceae', '']"
+pterocarya fraxinifolia,"21,35",monad,porate,isopolar,oblate,polygonal,-,"['hexa', 'stephano']",porus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Fagales', 'Juglandaceae', '']"
+pulsatilla vulgaris,,,,,,,,,,,,,
+punica granatum,"16,20",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"scabrate,  verrucate,  gemmaterugulate, fossulate","-,viscin threads","['Angiospermae', 'Myrtales', 'Lythraceae', '']"
+puschkinia scilloides,"21,40",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,reticulate,"-,viscin threads","['Angiospermae', 'Asparagales', 'Hyacinthaceae', '']"
+puschkinia scilloides673,"21,40",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,reticulate,"-,viscin threads","['Angiospermae', 'Asparagales', 'Hyacinthaceae', '']"
+pycnostachys urticifolia,,,,,,,,,,,,,
+pyrus pyrifolia,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"striate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+pyrus pyrifolia676,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"striate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+pyrus pyrifolia677,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"striate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+quercus ilex,"16,30",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Fagales', 'Fagaceae', '']"
+quercus robur,"21,35",monad,colpate,isopolar,oblate,circular,spheroidal,['tri'],colpus,colporoidate,"scabrate,  verrucate,  gemmateperforate","ubisch bodies,viscin threads","['Angiospermae', 'Fagales', 'Fagaceae', '']"
+ranunculus asiaticus,"26,30",monad,porate,isopolar,-,circular,spheroidal,['hexa'],porus,-,"scabrate,  verrucate,  gemmate","-,viscin threads","['Angiospermae', 'Ranunculales', 'Ranunculaceae', '']"
+ranunculus calandria,,,,,,,,,,,,,
+ranunculus ficaria,"26,50",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,"scabratemicroechinate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Ranunculales', 'Ranunculaceae', '']"
+ranunculus repens,"31,40",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,"scabrate,  verrucate,  gemmatemicroechinate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Ranunculales', 'Ranunculaceae', '']"
+rebutia perplexa,,,,,,,,,,,,,
+reineckia carnea,,,,,,,,,,,,,
+rhamnus imertinus,,,,,,,,,,,,,
+rheum australe,,,,,,,,,,,,,
+rhipsalis virgata,,,,,,,,,,,,,
+rhodocactus antonianus,,,,,,,,,,,,,
+rhododdendron cilpinense,,,,,,,,,,,,,
+rhus typhina,,,,,,,,,,,,,
+ribes nigrum,"26,30",monad,porate,-,-,circular,spheroidal,"['panto', 'panto']",porus,pantoaperturate,psilate,"-,viscin threads","['Angiospermae', 'Saxifragales', 'Grossulariaceae', '']"
+ribes rubrum,"26,30",monad,porate,-,-,circular,spheroidal,"['panto', 'panto']",porus,pantoaperturate,psilate,"-,viscin threads","['Angiospermae', 'Saxifragales', 'Grossulariaceae', '']"
+ribes sanguineum,"26,30",monad,porate,-,-,circular,spheroidal,"['panto', 'panto']",porus,"pantoaperturate, annulus",psilatepsilate,"-,viscin threads","['Angiospermae', 'Saxifragales', 'Grossulariaceae', '']"
+ricinus communis,"21,30",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"reticulatemicroreticulate, microgemmate","ubisch bodies,viscin threads","['Angiospermae', 'Malpighiales', 'Euphorbiaceae', '']"
+robinia pseudoacacia,"26,30",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane psilate,psilate,"-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+romneya coulteri,,,,,,,,,,,,,
+rondeletia odorata,,,,,,,,,,,,,
+rosa ,,,,,,,,,,,,,
+rosemarinus officinalis,"31,50",monad,colpate,isopolar,oblate,elliptic,-,"['hexa', 'stephano']",colpus,"aperture membrane ornamented, stephanoaperturate",reticulatemicroreticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+rubus benenden,,,,,,,,,,,,,
+rubus fructicosus,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"striatestriate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+sabal bermudeana,,,,,,,,,,,,,
+salix alba,"9,20",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,"reticulatereticulate, heterobrochate","-,viscin threads","['Angiospermae', 'Malpighiales', 'Salicaceae', '']"
+salix capra,"11,20",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,margo,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Malpighiales', 'Salicaceae', '']"
+salpichroa origanifolia,"10,25",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"microechinate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Solanales', 'Solanaceae', '']"
+salpiglottis sinuata,,,,,,,,,,,,,
+salvia discolor,,,,,,,,,,,,,
+salvia discolor709,,,,,,,,,,,,,
+salvia patens,,,,,,,,,,,,,
+sambucus nigra,"16,20",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,-,"reticulatereticulate, heterobrochate","-,viscin threads","['Angiospermae', 'Dipsacales', 'Adoxaceae', '']"
+saponaria officinalis,"41,50",monad,porate,-,-,circular,spheroidal,"['panto', 'panto']",porus,"operculum, pantoaperturate","scabrate,  verrucate,  gemmatemicroechinate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Caryophyllales', 'Caryophyllaceae', '']"
+sarothamnus scoparius,,,,,,,,,,,,,
+sarracenia flava,"26,50",monad,colporate,isopolar,oblate,polygonal,-,"['panto', 'stephano']",colporus,stephanoaperturate,perforate,"ubisch bodies,viscin threads","['Angiospermae', 'Ericales', 'Sarraceniaceae', '']"
+saxifraga bursiculata,,,,,,,,,,,,,
+saxifraga irvingii,,,,,,,,,,,,,
+scadoxus puniceus,,,,,,,,,,,,,
+scilla kurdistanica,,,,,,,,,,,,,
+scilla mischtschenkocina,,,,,,,,,,,,,
+scilla siberica,"31,50",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,-,reticulate,"-,viscin threads","['Angiospermae', 'Asparagales', 'Asparagaceae', '']"
+scrophularia vernalis,"26,35",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,aperture membrane psilate,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Scrophulariaceae', '']"
+sedum furfuraceum,,,,,,,,,,,,,
+sedum spectabile,,,,,,,,,,,,,
+selenostemon scutellaroides,,,,,,,,,,,,,
+semele androgyna,,,,,,,,,,,,,
+semiaquilegia escalcarata,,,,,,,,,,,,,
+sempervivum arachnoideum,,,,,,,,,,,,,
+senecio articulatus,,,,,,,,,,,,,
+senecio crassissimus,,,,,,,,,,,,,
+senecio grandifolius,,,,,,,,,,,,,
+senecio jacobaea,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinate, microreticulate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+senecio vulgaris,"21,30",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinateechinate, perforate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+sequoia sempervirens,"26,50",monad,-,heteropolar,-,circular,spheroidal,[],leptoma,-,"scabratemicroechinate, microverrucate, microrugulate","ubisch bodies,viscin threads","['Gymnospermae', 'Pinales', 'Cupressaceae', 'Sequoioideae', ' ']"
+sequoiadendrum giganteum,"26,50",monad,-,heteropolar,-,circular,spheroidal,[],leptoma,-,"scabratemicroverrucate, microechinate, fossulate","ubisch bodies,viscin threads","['Gymnospermae', 'Pinales', 'Cupressaceae', 'Sequoioideae', ' ']"
+sibthorpia pichimihensis,,,,,,,,,,,,,
+sibthorpia pichimihensis736,,,,,,,,,,,,,
+sida hermaphrodita,"41,100",monad,porate,isopolar,-,circular,spheroidal,"['tri', 'panto']",porus,-,echinate,"-,viscin threads","['Angiospermae', 'Malvales', 'Malvaceae', '']"
+silene hifacensis,,,,,,,,,,,,,
+silphium perfoliatum,"26,30",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinateechinate, perforate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+sisyrinchium striatum,,,,,,,,,,,,,
+skimmia laureola,,,,,,,,,,,,,
+solandra maxima,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,"brevicolporus, aperture membrane ornamented","striatoreticulate, reticulate","-,viscin threads","['Angiospermae', 'Solanales', 'Solanaceae', '']"
+solanum jasminoides,,,,,,,,,,,,,
+solanum melongena,,,,,,,,,,,,,
+solanum rantonnetii,"16,20",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,-,psilate,"-,viscin threads","['Angiospermae', 'Solanales', 'Solanaceae', '']"
+solanum sisymbrifolium,,,,,,,,,,,,,
+solanum tuberosum,"21,30",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,-,psilate,"-,viscin threads","['Angiospermae', 'Solanales', 'Solanaceae', '']"
+solanum uporo,,,,,,,,,,,,,
+sollya heterophylla,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,reticulate,"-,viscin threads","['Angiospermae', 'Apiales', 'Pittosporaceae', '']"
+sorbus aria,"26,50",monad,colporate,isopolar,oblate,triangular,-,['tri'],colporus,-,"striate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+sorbus aucuparia,"26,40",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"rugulate,  striatestriate, perforate","-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+sorbus graeca,"26,40",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,striate,"-,viscin threads","['Angiospermae', 'Rosales', 'Rosaceae', '']"
+sorbus leyana,,,,,,,,,,,,,
+sorbus pseudofennica,,,,,,,,,,,,,
+sphaeralcea umbellata,,,,,,,,,,,,,
+spiraea thunbergii,,,,,,,,,,,,,
+stachys sylvatica,"21,30",monad,colpate,isopolar,isodiametric,circular,spheroidal,['tri'],colpus,aperture membrane ornamented,"psilate, scabratereticulate, microreticulate, bireticulate","-,viscin threads","['Angiospermae', 'Lamiales', 'Lamiaceae', '']"
+stapelia variegata,,,,,,,,,,,,,
+staphylea colchica,,,,,,,,,,,,,
+staphylea ,,,,,,,,,,,,,
+stellaria holostea,"36,40",monad,porate,isopolar,isodiametric,circular,spheroidal,"['panto', 'panto']",porus,"aperture membrane ornamented, pantoaperturate","scabrate,  verrucate,  gemmatemicroreticulate, perforate","-,viscin threads","['Angiospermae', 'Caryophyllales', 'Caryophyllaceae', '']"
+stenocactus crispatus,,,,,,,,,,,,,
+stephania rotunda,,,,,,,,,,,,,
+stevia rebaudiana,"16,20",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinateechinate, perforate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+strelitzia alba,,,,,,,,,,,,,
+strelitzia reginaejpg,,,,,,,,,,,,,
+strongylodon macrobotrys,,,,,,,,,,,,,
+strophanthus speciosus,,,,,,,,,,,,,
+syagrus schizophylla,,,,,,,,,,,,,
+sycopsis sinensis,,,,,,,,,,,,,
+symphyllum officinale,"16,30",monad,colporate,isopolar,prolate,circular,-,"['panto', 'stephano']",colporus,stephanoaperturate,"psilatepsilate, granulate","ubisch bodies,viscin threads","['Angiospermae', 'unplaced', 'Boraginaceae', '']"
+synandrospadix vermitoxicus,,,,,,,,,,,,,
+syngonium auritum,,,,,,,,,,,,,
+synojackia rohderiana,,,,,,,,,,,,,
+syringa vulgaris,"21,30",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,-,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Lamiales', 'Oleaceae', '']"
+tamarix pentandra,,,,,,,,,,,,,
+taraxacum officinale,"21,25",monad,lophate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"lophate,  echinateechinate, perforate","-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+taxus baccata,"9,30",monad,inaperturate,isopolar,isodiametric,elliptic,spheroidal,['in'],no aperture,-,"scabrate,  verrucate,  gemmatemicrogemmate","-,viscin threads","['Gymnospermae', 'Pinales', 'Taxaceae', '']"
+tecomanthe dendrophila,,,,,,,,,,,,,
+theobroma cacao,"16,20",monad,colpate,isopolar,-,circular,spheroidal,['tri'],colpus,brevicolpus,"reticulatereticulate, perforate","ubisch bodies,viscin threads","['Angiospermae', 'Malvales', 'Malvaceae', '']"
+thunbergia mysorensis,,,,,,,,,,,,,
+thunbergia mysorensis782,,,,,,,,,,,,,
+tilia platyphyllus,"21,40",monad,colpate,isopolar,oblate,circular,-,['tri'],colpus,brevicolpus,"reticulatemicroreticulate, homobrochate","ubisch bodies,viscin threads","['Angiospermae', 'Malvales', 'Malvaceae', '']"
+tilia euchina,,,,,,,,,,,,,
+tilia europea,,,,,,,,,,,,,
+tillandsia ,,,,,,,,,,,,,
+tithonia californica,,,,,,,,,,,,,
+tithonia rotundifolia,,,,,,,,,,,,,
+tolpis barbata,,,,,,,,,,,,,
+torrya californica,,,,,,,,,,,,,
+tradescantia ,,,,,,,,,,,,,
+trifolium dubium,,,,,,,,,,,,,
+trifolium repens,"21,30",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,margo,psilateperforate,"-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+trillium nivale,,,,,,,,,,,,,
+tripleurospermum maritimum,"16,20",monad,colporate,isopolar,isodiametric,circular,spheroidal,['tri'],colporus,-,echinate,"-,viscin threads","['Angiospermae', 'Asterales', 'Asteraceae', '']"
+triteleia ixiodes,,,,,,,,,,,,,
+triteleia ixiodes797,,,,,,,,,,,,,
+triticum aestivum,"51,100",monad,ulcerate,heteropolar,prolate,circular,-,[],ulcus,"annulus, operculum",psilatemicroechinate,"ubisch bodies,viscin threads","['Angiospermae', 'Poales', 'Poaceae', '']"
+triticum dicoccoides,,,,,,,,,,,,,
+triticum durum,,,,,,,,,,,,,
+trochetiopsis ebenus,,,,,,,,,,,,,
+trochetiopsis ebenus802,,,,,,,,,,,,,
+tulbashia siamleri,,,,,,,,,,,,,
+tulbashia siamleri804,,,,,,,,,,,,,
+tulipa cretica,,,,,,,,,,,,,
+tulipa humulis,"26,50",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,"operculum, aperture membrane ornamented","rugulate, perforate","-,viscin threads","['Angiospermae', 'Liliales', 'Liliaceae', '']"
+tulipa kaufmanniana,"51,100",monad,sulcate,heteropolar,oblate,elliptic,-,[],sulcus,aperture membrane ornamented,microrugulate,"ubisch bodies,viscin threads","['Angiospermae', 'Liliales', 'Liliaceae', '']"
+tulipa praestans,,,,,,,,,,,,,
+tulipa red,,,,,,,,,,,,,
+tulipa yellow,,,,,,,,,,,,,
+turbinicarpus dicksonii,,,,,,,,,,,,,
+turbinicarpus dicksonii812,,,,,,,,,,,,,
+turbinicarpus ,,,,,,,,,,,,,
+turbinicarpus schmiedickeanus,,,,,,,,,,,,,
+typha latifolia,"51,100",tetrad,ulcerate,heteropolar,-,circular,spheroidal,[],ulcus,-,reticulatereticulate,"-,viscin threads","['Angiospermae', 'Poales', 'Typhaceae', '']"
+ulex europaeus,"21,35",monad,colporate,isopolar,oblate,triangular,disc-shaped,['tri'],colporus,-,reticulate,"-,viscin threads","['Angiospermae', 'Fabales', 'Fabaceae', '']"
+vaccinium myrtillis,,,,,,,,,,,,,
+valeriana officinalis,,,,,,,,,,,,,
+valeriana officinalis819,,,,,,,,,,,,,
+valeriana officinalis820,,,,,,,,,,,,,
+veltheimia bracteata,,,,,,,,,,,,,
+verbascum dumulosum,,,,,,,,,,,,,
+verbascum thapsus,,,,,,,,,,,,,
+verbascum thapsus824,,,,,,,,,,,,,
+veronica gentianoides,,,,,,,,,,,,,
+veronica gentianoides826,,,,,,,,,,,,,
+veronica persica,,,,,,,,,,,,,
+veronica persica828,,,,,,,,,,,,,
+viburnum bodnantense,,,,,,,,,,,,,
+viburnum bodnantense830,,,,,,,,,,,,,
+vicia sativa,,,,,,,,,,,,,
+vincetoxicum fuscatum,,,,,,,,,,,,,
+wisteria sinensis,,,,,,,,,,,,,
+citrofortunella microcarpa,,,,,,,,,,,,,
+xanthoceras sorbifolium,"26,50",monad,colporate,isopolar,-,circular,spheroidal,['tri'],colporus,-,"echinate, microreticulate","ubisch bodies,viscin threads","['Angiospermae', 'Sapindales', 'Sapindaceae', '']"
+yucca whipplei,,,,,,,,,,,,,
+zantedeschia aethiopica,"31,50",monad,inaperturate,-,-,elliptic,no suitable term,['in'],no aperture,-,psilatepsilate,"-,viscin threads","['Angiospermae', 'Alismatales', 'Araceae', '']"
+zauschneria californica,,,,,,,,,,,,,
+zea mays,"51,100",monad,ulcerate,heteropolar,-,circular,spheroidal,[],ulcus,"annulus, operculum",psilatemicroechinate,"ubisch bodies,viscin threads","['Angiospermae', 'Poales', 'Poaceae', '']"
+zingiber officinale,"51,101",monad,inaperturate,-,isodiametric,-,spheroidal,['in'],no aperture,-,areolate,"-,viscin threads","['Angiospermae', 'Zingiberales', 'Zingiberaceae', '']"
