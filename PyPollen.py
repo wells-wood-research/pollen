@@ -248,7 +248,7 @@ def measure_props(
             energy = sft.greycoprops(glcm, prop="energy")[0].mean()
             entropy = sme.shannon_entropy(boxx)
             prediction_model = pickle.load(
-                open("SVM_0.0044445000000000005_model.sav", "rb")
+                open("SVM_error_prediction_model.sav", "rb")
             )
             values = [
                 h,
