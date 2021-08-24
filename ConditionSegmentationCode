@@ -1,0 +1,137 @@
+# Import all modules for the code to work
+from pathlib import Path 
+import typing as t
+import skimage
+import matplotlib.pyplot as plt 
+import numpy as np
+import skimage.filters as sfi
+import skimage.measure as sme 
+import skimage.morphology as smo 
+import skimage.segmentation
+from PIL import Image, ImageEnhance 
+from skimage.feature import canny
+from skimage.feature import texture as sft 
+from skimage.util import img_as_ubyte 
+import pickle
+
+# Function to increas the contrast of images
+def inc_contrast(image_array, contrast_times = 15.0, dilation = False, dilation_selem_size = 10): 
+  enhance = ImageEnhance.Contrast(image_array) # Increases the constrast of the PIL image 
+  cont = enhance.enhance(contrast_times) # Enhances contrast 15 times
+  cont = np.array(cont) # Transforms image in numpy data array, necessary to work with skimage module.
+  if dilation == True: # This condition will be applied when image needs to be dilated for segmentation with watershed.
+    selem = smo.disk(dilation_selem_size) # Element required for dilation.
+    dilated = smo.dilation(cont, selem)
+    return dilated 
+  else:
+    return cont
+    
+# Functions to get the markers neccesary for watershed segmentation.
+def get_markers(image_array, evened_selem_size = 4, markers_contrast_times= 15.0, markers_sd = 0.25):
+  selem = smo.disk(evened_selem_size) #Uses skimage.morphology to generate a flat, disk-shaped
+ structuring element.
+  evened = sfi.rank.mean_bilateral(inc_contrast(image_array, contrast_times=markers_contrast_times), selem)
+# Markers defined by highest and lowest grey levels values.
+  high = np.max(evened)
+  low = np.min(evened)
+  std = np.std(evened)
+  neatarray = np.array(image_array) # Transforms the image given as argument in a numpy array. 
+  markers: np.ndarray = np.zeros_like(neatarray) # Uses the numpy array of the image to generate a
+  new array of zeros with the same shape and type # Level reduced/decreased by 1/4 SD 
+  markers[evened < low + (markers_sd * std)] = 3 
+  markers[evened > high - (markers_sd * std)] = 2 
+  return markers
+  
+
+# Function to segment the image with the watershed filter.
+def getmask (image_array, evened_selem_size = 4, dilated_evened_selem_size = 9, dilation_selem_size= 9,
+sigma = 3.0, canny_lt = 25.0, canny_ht = 5.0, use_longest_elements = False):
+  selem = smo.disk(evened_selem_size) # Selem to apply the rank.mean.bilateral filter and reduce noise
+  markers = get_markers(image_array) # Operates the function to get the markers
+  evened = sfi.rank.mean_bilateral (inc_contrast(image_array), selem) # Applies mean_bilateral filter to
+reduce noise.
+  selem = smo.disk(dilated_evened_selem_size) # New selem to to apply the rank.mean.bilateral filter
+to the dilated image array.
+  devened = sfi.rank.mean_bilateral(inc_contrast(image_array, dilation=True, dilation_selem_size=dilation_selem_size),selem,)
+ # Canny filter detects objects edges and puts them in a binary array.
+  elevation_map = canny (devened, sigma, canny_lt, canny_ht)
+# Structuring element for binary closing to detect true values in any neighbouring pixel as a connection.
+  s = [[1,1,1],[1,1,1],[1,1,1]]
+  if use_longest_elements == False:
+    elevation_map = nd.binary_closing (elevation_map, s, iterations = 2)
+  if use_longest_elements == True: # Condition to only use the longest 8
+elements
+    elevation_map = nd.binary_closing(elevation_map, s, iterations = 1) 
+    label_im, nb_labels = nd.label(elevation_map, s)
+    sizes = nd.sum (image_array, label_im, range(1, nb_labels + 1)) ordered = np.sort (sizes, axis=0)
+    choicelist = []
+    if len(ordered)>= 8:
+      max_label = np.where(sizes >= ordered [-8])[0] + 1 
+      for a in max_label:
+        choicelist.append(np.asarray(label_im == a)) 
+      a1 = np.logical_or(choicelist[0], choicelist[1]) 
+      a2 = np.logical_or(choicelist[2], choicelist[3]) 
+      a3 = np.logical_or(choicelist[4], choicelist[5]) 
+      a4 = np.logical_or(choicelist[6], choicelist[7]) 
+      a5 = np.logical_or(a1, a2)
+      a6 = np.logical_or(a3, a4)
+      output = np.logical_or(a5, a6) 
+    elif 4 <= len(ordered) <= 7:
+      max_label = np.where(sizes >= ordered[-4])[0] + 1 
+      for a in max_label:
+        choicelist.append(np.asarray(label_im == a)) 
+      a1 = np.logical_or(choicelist[0], choicelist[1]) 
+      a2 = np.logical_or(choicelist[2], choicelist[3]) 
+      output = np.logical_or(a1, a2)
+    elif len(ordered) < 4:
+      try:
+          max_label = np.where(sizes >= ordered[-2])[0] + 1 
+          for a in max_label:
+            choicelist.append(np.asarray(label_im == a)) 
+          output = np.logical_or(choicelist[0], choicelist[1])  
+       except:
+          output = elevation_map
+    else:
+      output = elevation_map
+    elevation_map = nd.binary_closing(output, s, iterations= 2)
+   elevation_map = elevation_map.astype(int)
+   CNNmask = skimage.segmentation.watershed(evened, markers, mask = elevation_map,
+connectivity = 1) # Watershed segmentation 
+   CNNmask = nd.binary_fill_holes(CNNmask)
+   CNNmask = CNNmask.astype(int) 
+   return CNNmask
+   
+# Function to change the watershed segmentation conditions depending on the percentage of area segmented.
+def checkmask (image_array): # Filters images per area of regions.
+  wt, ht = image_array.size # Obtains the image dimensions.
+  area = wt * ht # Calculates area of the raw image.
+  stareas = np.array([]) # Opens numpy array to store areas of the regions.
+  regn = getmask (image_array) # Gets the mask with "use_longest_elements" as False. 
+  for region in sme.regionprops(regn):
+    if 1 > (region.area / area) > 0.01: # Selects all sections of the masks that area between 1% and 99% of the total image area
+       stareas = np.append(stareas, region.area) # Stores all the areas detected by the mask. 
+    tlareas = np.sum (stareas)
+    if 0.05 >(tlareas/area) >= 0: # When the sum of the areas detected is less than 5% of the image
+area, no grain was detected -
+      CNNmask = getmask (image_array, use_longest_elements = True) # - so "use_longest_elements"
+changes to True to avoid segmentation -
+    else: # - of small internal features of a grain. -
+      CNNmask = getmask (image_array) # - Useful when the grain occupies a large proportion of the image.
+  return CNNmask
+  
+# Code to run the functions over the images and to return the masks for CNNs input as byte streams in a file called "pickled_masks.p".
+fhand = "100X_masks.p"
+
+directory ='/Users/-/-/-/'
+limg, lmask = [], [] # Lists to store the raw image and the binary mask arrays
+for filename in os.listdir(directory): # Loop that will iterate each image through the program.
+  filename = str(filename)
+  print (filename)
+  img = Image.open(directory + filename).convert("L") #Opens raw image. 
+  maskCNN = checkmask (img) # Segments image and returns the mask for CNN. print (maskCNN)
+  img = np.asarray(img) # Converts PIL image into an array for storage.
+  print(img)
+  limg.append(img) # Append image arrays into a list. 
+  lmask.append(maskCNN) # Append mask arrays into a list.
+  
+items_to_save = list(zip(limg,lmask)) # Sorts each image array with its binary mask in a common list.
