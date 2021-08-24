@@ -1,0 +1,166 @@
+# Import all modules for the code to work.
+import os
+import tensorflow as tf
+from tensorflow import keras
+import numpy as np
+from tensorflow.keras.preprocessing.image 
+import load_img from tensorflow.keras import layers
+import random
+from PIL import Image
+from PIL import ImageOps
+import PIL
+import matplotlib.pyplot as plt
+from IPython.display import Image, display
+from tensorflow.keras.preprocessing.image import load_img
+from tensorflow.keras.preprocessing.image import img_to_array 
+from tensorflow.keras.preprocessing.image import array_to_img
+
+# Paths for input image arrays and target mask arrays.
+inpt_dr = "/home/-/anaconda3/ImageJPG/"
+trgt_dr = "//home/-/anaconda3/MaskPNG/"
+
+img_size = (960, 1296) # Size of the resized images. 
+num_classes = 1
+batch_size = 16
+
+inpt_img_paths = sorted([os.path.join(inpt_dr, fname) for fname in os.listdir(inpt_dr) if fname.endswith(".jpg")])
+trgt_img_paths = sorted([os.path.join(trgt_dr, fname) for fname in os.listdir(trgt_dr) if fname.endswith(".png")])
+
+# Establish class for later segmentation.
+class PollenGrainX100 (keras.utils.Sequence):
+
+  def __init__(self, batch_size, img_size, inpt_img_paths, trgt_img_paths): self.batch_size = batch_size
+    self.img_size = img_size
+    self.inpt_img_paths = inpt_img_paths
+    self.trgt_img_paths = trgt_img_paths
+    
+  def __len__(self):
+    return len(self.trgt_img_paths) // self.batch_size
+    
+  def __getitem__(self, idx): # Returns tuple of input and target pairs corresponding to the index (idx)
+    i = idx * self.batch_size
+    batch_inpt_img_paths = self.inpt_img_paths[i : i + self.batch_size] 
+    batch_trgt_img_paths = self.trgt_img_paths[i : i + self.batch_size]
+    x = np.zeros((self.batch_size,)+ (960, 1296) + (3,), dtype="float32") 
+    for j, path in enumerate(batch_inpt_img_paths):
+      img = load_img(path, target_size=self.img_size) 
+      array = img_to_array(img)
+      norm_array = array/255
+      x[j] = img
+    y = np.zeros((self.batch_size,) + self.img_size + (1,), dtype="uint8") 
+    for j, path in enumerate(batch_trgt_img_paths):
+      img = load_img(path, target_size=self.img_size, color_mode="grayscale")
+      array = img_to_array(img) 
+      norm_array = array/255 
+      y[j] = norm_array
+    return x, y
+    
+# U-net model with dropout layers after the first convolution and after maxsamplings and downsamplings.
+
+def get_model(img_size, num_classes): 
+  inputs = keras.Input(img_size + (3,))
+
+    # [Contracting path] #
+  ly = layers.Conv2D(32, 3, strides=2, padding="same")(inputs) #32 filters, each looking for a different feature.
+  # ly = layers.Dropout(0.1) (ly) or ly = layers.Dropout(0.2)
+  ly = layers.BatchNormalization()(ly) 
+  ly = layers.Activation("relu")(ly) 
+  pre_block_act = ly
+
+  for filters in [64, 128, 256]:
+    ly = layers.Activation("relu")(ly)
+    ly = layers.SeparableConv2D(filters, 3, padding="same")(ly) 
+    ly = layers.BatchNormalization()(ly)
+    
+    ly = layers.Activation("relu")(ly)
+    ly = layers.SeparableConv2D(filters, 3, padding="same")(ly) 
+    ly = layers.BatchNormalization()(ly)
+    
+    ly = layers.MaxPooling2D(2, strides=2, padding="same")(ly)
+    # ly = layers.Dropout(0.1) (ly) or ly = layers.Dropout(0.2)
+    residual = layers.Conv2D(filters, 1, strides=2, padding="same")(pre_block_act)
+    ly = layers.add([ly, res]) pre_block_act = ly
+    # [Expanding path] #
+
+  for filters in [256, 128, 64, 32]:
+    ly = layers.Activation("relu")(ly)
+    ly = layers.Conv2DTranspose(filters, 3, padding="same")(ly) 
+    ly = layers.BatchNormalization()(ly)
+    
+    ly = layers.Activation("relu")(ly)
+    ly = layers.Conv2DTranspose(filters, 3, padding="same")(ly) 
+    ly = layers.BatchNormalization()(ly)
+    
+    ly = layers.UpSampling2D(2)(ly)
+    res = layers.UpSampling2D(2)(pre_block_act)
+    res = layers.Conv2D(filters, 1, padding="same")(res) 
+    ly = layers.add([ly, res])
+    pre_block_act = ly
+    
+# Add a per-pixel classification layer
+outputs = layers.Conv2D(num_classes, 3, activation="sigmoid", padding="same")(ly)
+
+# Define the model
+model = keras.Model(inputs, outputs) 
+return model
+
+# Free up RAM in case the model definition cells were run multiple times
+keras.backend.clear_session()
+
+# Build model
+PollenSegmentation = get_model(img_size, num_classes) 
+PollenSegmentation.summary() #Prints a summary of the model
+
+# Shuffle and set validation and training images
+val_set = 200
+random.Random(1337).shuffle(inpt_img_paths) 
+random.Random(1337).shuffle(trgt_img_paths) 
+train_inpt_img_paths = inpt_img_paths[:-val_set] 
+train_trgt_img_paths = trgt_img_paths[:-val_set] 
+val_inpt_img_paths = inpt_img_paths[-val_set:]
+val_trgt_img_paths = trgt_img_paths[-val_set:]
+
+# Instantiate data Sequences for each split
+train_gen = PollenGrainX100(batch_size, img_size, train_inpt_img_paths, train_trgt_img_paths) 
+val_gen = PollenGrainX100(batch_size, img_size, val_inpt_img_paths, val_trgt_img_paths)
+
+# Training the model
+PollenSegmentation.compile(optimizer="rmsprop", loss="binary_crossentropy") # RMSprop is the algorithm
+callbacks = [keras.callbacks.ModelCheckpoint("oxford_segmentation.h5", save_best_only=True)] # callbacks = keras.callbacks.EarlyStopping(monitor="val_loss",min_delta=0.005, patience=30, mode="min", baseline=None)]
+
+# Early stop callback
+# Validation at the end of each epoch.
+epochs = 120
+PollenTrain= PollenSegmentation.fit(train_gen, epochs=epochs, validation_data=val_gen, callbacks=callbacks)
+# Trains 33 batches of 16 images -> 528 images from the training set (200 are for validation)
+
+# Generate predictions for all images in the validation set
+val_gen = PollenGrainX100(batch_size, img_size, val_inpt_img_paths, val_trgt_img_paths) 
+val_preds = PollenSegmentation.predict(val_gen)
+ 
+#-----[Jaccard Function]
+
+# Need to set a list with the actual masks and another with the prediciton
+val_trgt = []
+count = 0
+print (len(val_trgt_img_paths))
+for filename in val_trgt_img_paths:
+  img = load_img(filename, (960, 1296))
+  array = img_to_array(img) norm_array = array/255 count = count + 1
+  print (count) 
+  val_trgt.append(norm_array)
+
+# Jaccard index: measure of the similarity of two objects (!) In this case the train masks and the validation predictions
+def JaccardIn(val_mask,train_mask):
+  inters = np.logical_and(val_mask, train_mask) 
+  union = np.logical_or(val_mask, train_mask) 
+  similarity = inters.sum() / float(union.sum()) r
+  eturn similarity
+  
+#----[Thresholding predicted masks]
+val_preds_threshold = []
+for item in val_preds:
+item = np.where(item, item > 0.7, 1) # Threshold as 0.7. 
+val_preds_threshold.append(item)
+
+print (len(val_preds_threshold))
