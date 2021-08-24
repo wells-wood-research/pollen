@@ -1,0 +1,76 @@
+# Import all modules for the code to work.
+import os
+import tensorflow as tf
+from tensorflow import keras
+import numpy as np
+from tensorflow.keras.preprocessing.image import load_img 
+from tensorflow.keras import layers
+import random
+from PIL import Image
+from PIL import ImageOps
+import PIL
+import matplotlib.pyplot as plt
+from IPython.display import Image, display
+from tensorflow.keras.preprocessing.image import load_img 
+from tensorflow.keras.preprocessing.image import img_to_array 
+from tensorflow.keras.preprocessing.image import array_to_img
+
+ClassifitacionModel = tf.keras.applications.VGG16(include_top=True, weights=None, input_tensor=None, input_shape= (960, 960, 3), pooling=None, classes=4, classifier_activation="softmax")
+ClassifitacionModel.summary()
+
+# Paths for input image arrays and target mask arrays.
+inpt_dr = "/home/-/anaconda3/inputVGG16/" 
+trgt_dr = "//home/-/anaconda3/vectorVGG16/"
+
+inpt_img_paths = sorted([os.path.join(inpt_dr, fname) for fname in os.listdir(inpt_dr) if fname.endswith(".jpg")])
+trgt_img_paths = sorted([os.path.join(trgt_dr, fname) for fname in os.listdir(trgt_dr) if fname.endswith(".npy")])
+
+class PollenGrainX100 (keras.utils.Sequence):
+
+  def __init__(self, batch_size, img_size, inpt_img_paths, trgt_img_paths): self.batch_size = batch_size
+    self.img_size = img_size
+    self.inpt_img_paths = inpt_img_paths
+    self.trgt_img_paths = trgt_img_paths 
+    
+  def __len__(self):
+    return len(self.trgt_img_paths) // self.batch_size
+    
+  def __getitem__(self, idx): # Returns tuple of input and target pairs corresponding to the index (idx).
+    i = idx * self.batch_size
+    batch_inpt_img_paths = self.inpt_img_paths[i : i + self.batch_size] 
+    batch_trgt_img_paths = self.trgt_img_paths[i : i + self.batch_size]
+    x = np.zeros((self.batch_size,)+ (960, 960) + (3,), dtype="float32") 
+    for j, path in enumerate(batch_inpt_img_paths):
+      img = load_img(path, target_size=self.img_size) 
+      array = img_to_array(img)
+      array = array[0:960, 0:960]
+      x[j] = img
+    #y = np.zeros((self.batch_size,) + (960, 960) + (1,), dtype="uint8") 
+    y = []
+    for j, path in enumerate(batch_trgt_img_paths):
+      array = np.load(path)
+       #array = array[0:960, 0:960] 
+       one_hot_label = np.zeros(4) 
+       one_hot_label[array.max()-1] = 1 
+       y.append(one_hot_label)
+   return x, np.array(y)
+
+# Shuffle and set validation and training images.
+val_set = 200 
+random.Random(1337).shuffle(inpt_img_paths) 
+random.Random(1337).shuffle(trgt_img_paths) 
+train_inpt_img_paths = inpt_img_paths[:-val_set] 
+train_trgt_img_paths = trgt_img_paths[:-val_set] 
+val_inpt_img_paths = inpt_img_paths[-val_set:] 
+val_trgt_img_paths = trgt_img_paths[-val_set:]
+
+# Instantiate data Sequences for each split.
+train_gen = PollenGrainX100(batch_size, img_size, train_inpt_img_paths, train_trgt_img_paths) 
+val_gen = PollenGrainX100(batch_size, img_size, val_inpt_img_paths, val_trgt_img_paths)
+
+# class_weight = {0: 1.26, 1:1, 2:2.89, 3: 2.14}
+checkies = [keras.callbacks.ModelCheckpoint("vgg16_1.h5", monitor='val_accuracy', verbose=1, save_best_only=True, save_weights_only=False, mode='auto', save_freq=10 ), keras.callbacks.EarlyStopping(monitor='accuracy', min_delta=0, patience=20, verbose=1, mode='auto')]
+
+ClassifitacionModel.compile (optimizer="rmsprop", loss='categorical_crossentropy', metrics=['accuracy'])
+
+TrainedModel = hist = Model.fit(steps_per_epoch=10,x=train_gen, validation_data=val_gen, validation_steps=10,epochs=100,class_weight=class_weight, callbacks=checkies).fit(steps_per_epoch=10,x=train_gen, validation_data=val_gen, validation_steps=10,epochs=100,class_weight=class_weight, callbacks=checkies)
